@@ -1,0 +1,2236 @@
+
+==================== FINAL INTERFACE ====================
+2016-09-03 20:44:53.035534 UTC
+
+interface main@main:Main [family instance module] 7103
+  interface hash: 1e3f78b5fbeade2bc2059c07f1af8721
+  ABI hash: 1f135993c7df891c8e8af142202e96b3
+  export-list hash: bdd81c6c5c7f3800c4211dc265a49439
+  orphan hash: 8d5b7193eb8222de40b7d315b4bf931c
+  flag hash: 58c49b7f5dc192f2cc71535ffc0ba628
+  sig of: Nothing
+  used TH splices: True
+  where
+exports:
+  Main.main
+module dependencies:
+package dependencies: aeson-0.11.2.1@aeson_43tr7H3v7HP7PrHDWSJDlb
+                      aeson-compat-0.3.5.1@aeson_EkZri9JDLZy6cQTHS0a2DY
+                      ansi-terminal-0.6.2.3@ansit_BDlVdfJGo3VHCIHxPTNjH1
+                      appar-0.1.4@appar_0ov5bpGH3STIB4U7WU8MFi
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA
+                      async-2.1.0@async_KuqnF1GrhHK5nNp6Zzm3jy
+                      attoparsec-0.13.0.2@attop_F2JR8EcnzjH8eSBi5YocsE
+                      auto-update-0.1.4@autou_Fnqbq5K41573zil7J3s62I base-4.8.2.0
+                      base64-bytestring-1.0.0.1@base6_AkCk8zInckjJsyQ4AIFHPN
+                      base-compat-0.9.1@basec_3Zy8UsyHmBEEwbReR8x1KT
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      blaze-markup-0.7.1.0@blaze_0tKrf28gRcM35aw8gGohhB
+                      blaze-builder-0.4.0.2@blaze_5LQurmvTy7l9rPlWgPlNE4
+                      blaze-html-0.8.1.2@blaze_EuR2jFLDiz00YoBrv2GRvv
+                      byteable-0.1.1@bytea_38yjJsjDRm9KusCn8Yo4aB
+                      byteorder-1.0.4@byteo_6yQGE3rJo3bBqr3CFoBQ27
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      case-insensitive-1.2.0.7@casei_2hQWsf0VfQP5NW180eleos
+                      cereal-0.5.2.0@cerea_GKnWyxn5hRWK9xfCMeMEL8
+                      cipher-aes-0.2.11@ciphe_LCbQiUgBdfG1swKGFESvIB
+                      clientsession-0.9.1.2@clien_CvcxNj4Lsay0m5yWU6jTNA
+                      conduit-1.2.7@condu_6OSrnRI6RqIGBv7ZPG9IV6
+                      conduit-extra-1.1.13.2@condu_ErVEtE0OOPvEOsJa6HCflV
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      cookie-0.4.2.1@cooki_K5cXuTHwzBb4lSJpuZqTwh
+                      cprng-aes-0.6.1@cprng_5f9sEWw2KyDFuK7YSXbmLg
+                      crypto-cipher-types-0.0.9@crypt_5pOb6r7GjTIIAX2STwtBXT
+                      crypto-api-0.13.2@crypt_GAe4aPlSVmU85G1MLJlJcV
+                      crypto-random-0.0.9@crypt_Hp2mrapNVMVGQkdcUyO52d
+                      css-text-0.1.2.1@csste_6z2v2MYPCwSHHrEIVRx7XP
+                      data-default-instances-base-0.1.0@datad_2INJRDvgZ4jDHH2QJIQkcK
+                      data-default-0.5.3@datad_91CrM49egJd0Gm9c4dN01A
+                      data-default-instances-dlist-0.0.1@datad_IV2dTGx3Pj09NowR0FWGzk
+                      data-default-instances-containers-0.0.1@datad_IvTKAI579b047LLJfQOYbY
+                      data-default-class-0.0.1@datad_K91y8NcZUJI9yaBI61rgdD
+                      data-default-instances-old-locale-0.0.1@datad_LQTewb1b5hK22W4h2rIWVQ
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      deepseq-generics-0.1.1.2@deeps_KQS2Zr93xUkD8bcZwwdMmS
+                      directory-1.2.2.0@direc_0hFG6ZxK1nk4zsyOqbNHfm
+                      dlist-0.7.1.2@dlist_AO7XAasbAeyL0XLKeq1Aui
+                      easy-file-0.2.1@easyf_IjQ6MMskJyDEpOwcfCdF0G
+                      email-validate-2.2.0@email_Ezv99HerU1cHsJboaVb7Q7
+                      entropy-0.3.7@entro_7gYJ61Ci0NNBp8LB4CGmrG
+                      exceptions-0.8.3@excep_BEih2K3eMGTE4cg5iulra8
+                      fail-4.9.0.0@fail_2xB1AvdW34sDm9N3JOe33G
+                      fast-logger-2.4.6@fastl_KNzHEmV4CAC3sAdPGCavvx
+                      filepath-1.4.0.0@filep_Ey7a1in9roBAE8bUFJ5R9m ghc-prim-0.4.0.0
+                      hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I
+                      http2-1.6.2@http2_K9OxZyXTDHh7QXAaQ1fub3
+                      http-api-data-0.2.4@httpa_ATzgo959Z7z7yzWZFLYwi5
+                      http-date-0.0.6.1@httpd_1oVBShPuvOKJmU2QQbDO8W
+                      http-types-0.9.1@httpt_LVMqo0EufsBKPzTVSJA3lm integer-gmp-1.0.0.0
+                      iproute-1.7.0@iprou_EmwGKuwHXxo93hguRyGitY
+                      lifted-base-0.2.3.8@lifte_27kQ9DytVyu5Pw2So1Igy3
+                      memory-0.13@memor_AtLbf837cOS9kNhIuRhbe8
+                      mmorph-1.0.6@mmorp_42KUkOfzC6q3qCtAMiSHam
+                      monad-logger-0.3.19@monad_13Fp6KQ7g8TAMOB4si1KkM
+                      monad-control-1.0.1.0@monad_7Tqv3C2ASZP4J7swGaIkqS
+                      monad-loops-0.4.3@monad_LQiHRUYhFhYBU7nOOWDOrb
+                      mtl-2.2.1@mtl_Aue4leSeVkpKLsfHIV51E8
+                      mwc-random-0.13.4.0@mwcra_0lrQ1SkkNA85sa8eZ98xQk
+                      network-2.6.3.1@netwo_4FL8hbDqfKm3Q9HV1QK1xw
+                      network-uri-2.6.1.0@netwo_8hCRgBDYvZA6nRJCSPBXws
+                      old-locale-1.0.0.7@oldlo_7h2Gx6mVPJ5Gheca8j9Mpe
+                      old-time-1.1.0.3@oldti_JVjJvknZJ0JKghfag2Jw2L
+                      parsec-3.1.11@parse_AtBt9uDOS2NCyWnucTHV3y
+                      path-pieces-0.2.1@pathp_4qW9xznk5mC6aJZVVgmWEO
+                      persistent-template-2.1.8.1@persi_4PZzewAb3fGKlWaUc16U0r
+                      persistent-2.2.4.1@persi_EbZVXqEJK6FKzZqoEa5cj6
+                      pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC
+                      primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3
+                      process-1.2.3.0@proce_52AgREEfSrnJLlkGV9YZZJ
+                      psqueues-0.2.2.2@psque_DpbyjBBm64hEDzSlDfS35I
+                      random-1.1@rando_9Kgekc9yEaLHLNUuw6paWL
+                      resourcet-1.1.7.5@resou_165wgeXO1n8BEqynSK393U
+                      resource-pool-0.2.3.2@resou_BPzNUl5kJsI1qo7V284Tgq
+                      safe-0.3.9@safe_Eus5OohxO2XHvdWxKAmhFS
+                      scientific-0.3.4.9@scien_1WVNjGUftkQ9QzH4DOM2n1
+                      securemem-0.1.9@secur_G6dZ7LcBMCWL87x7vQA9FR
+                      semigroups-0.18.1@semig_LaeT7FLzCl4KIQUoVrPYl1
+                      shakespeare-2.0.11@shake_CHTOUuJd3cPJrWSlXolmQR
+                      silently-1.2.5@silen_5nVdOe0bUXfLPEbxHJT4m4
+                      simple-sendfile-0.2.25@simpl_HkPL9dsGEXvJehTjaTDejw
+                      skein-1.0.9.4@skein_0GNolmrbAvZEDxb5KJkWZw
+                      stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD
+                      stm-chans-3.0.0.4@stmch_4ac5OLG4E0w1rpuIDCribD
+                      streaming-commons-0.1.15.5@strea_2a9C3L0IVZc79BZaLNwyzG
+                      stringsearch-0.3.6.6@strin_CAOAc0sCfAC9gi7YClo2KY
+                      tagged-0.8.4@tagge_LPeicl3HxVfGUMMwMEsAE6
+                      tagsoup-0.13.10@tagso_3rEkgaaJ74Z8iYKiJ2gVLz
+                      template-haskell-2.10.0.0 text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn
+                      time-locale-compat-0.1.1.3@timel_JqBSqBpv4WnGcW1nkQYzOp
+                      transformers-base-0.4.4@trans_74WedXVmfaHHDJItmBRTVp
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+                      unix-2.7.1.0@unix_KZL8h98IqDM57kQSPo1mKx
+                      unix-compat-0.4.1.4@unixc_Km8uiabmElX5mrb8D4Fywe
+                      unix-time-0.3.6@unixt_4DXmhADld9WFju1Q636Hdx
+                      unordered-containers-0.2.7.1@unord_5iWC5HdL16JGHXLbsgBJnw
+                      utf8-string-1.0.1.1@utf8s_L8eKHa7Iv9q7FVKUYW6u4b
+                      vault-0.3.0.6@vault_0ZPXcEIDZ59EVFZMoaTNHZ
+                      vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln
+                      wai-3.2.1.1@wai_D3ciU60zVkf3WsEVeR5d8t
+                      wai-extra-3.0.16.1@waiex_F8rqgPal5LQ3KW3vl07FNc
+                      wai-logger-2.2.7@wailo_DLSzJOtnvFL5m4Ev0L39sx
+                      warp-3.2.8@warp_2T57JeaULg76yTNbQsRe3e
+                      word8-0.1.2@word8_6yKBsGbmsbLB2UCORShr75
+                      xss-sanitize-0.3.5.7@xsssa_J5v8xr6syLk3szzj9klrJf
+                      yesod-1.4.3@yesod_2dfl9TV9H8xAf7RAV3K8aS
+                      yesod-persistent-1.4.0.6@yesod_Ai57E3ivAPQDcqp2fEzenN
+                      yesod-form-1.4.7.1@yesod_D0Wx5gPjNItAKWTJFrChxF
+                      yesod-core-1.4.23@yesod_GU10xZyN3HaFfxkxQduZkk
+                      zlib-0.6.1.1@zlib_7LjT7TSHX8U3VTy3t378Vu
+orphans: aeson-0.11.2.1@aeson_43tr7H3v7HP7PrHDWSJDlb:Data.Aeson.Types.Generic
+         aeson-0.11.2.1@aeson_43tr7H3v7HP7PrHDWSJDlb:Data.Aeson.Types.Instances
+         attoparsec-0.13.0.2@attop_F2JR8EcnzjH8eSBi5YocsE:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.0.2@attop_F2JR8EcnzjH8eSBi5YocsE:Data.Attoparsec.Text.Internal
+         base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         crypto-api-0.13.2@crypt_GAe4aPlSVmU85G1MLJlJcV:Crypto.Classes
+         data-default-instances-base-0.1.0@datad_2INJRDvgZ4jDHH2QJIQkcK:Data.Default.Instances.Base
+         data-default-instances-dlist-0.0.1@datad_IV2dTGx3Pj09NowR0FWGzk:Data.Default.Instances.DList
+         data-default-instances-containers-0.0.1@datad_IvTKAI579b047LLJfQOYbY:Data.Default.Instances.Containers
+         data-default-instances-old-locale-0.0.1@datad_LQTewb1b5hK22W4h2rIWVQ:Data.Default.Instances.OldLocale
+         hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I:Data.Hashable.Generic
+         network-2.6.3.1@netwo_4FL8hbDqfKm3Q9HV1QK1xw:Network.Socket
+         persistent-template-2.1.8.1@persi_4PZzewAb3fGKlWaUc16U0r:Database.Persist.TH
+         persistent-2.2.4.1@persi_EbZVXqEJK6FKzZqoEa5cj6:Database.Persist.Sql.Orphan.PersistQuery
+         persistent-2.2.4.1@persi_EbZVXqEJK6FKzZqoEa5cj6:Database.Persist.Sql.Orphan.PersistStore
+         persistent-2.2.4.1@persi_EbZVXqEJK6FKzZqoEa5cj6:Database.Persist.Sql.Orphan.PersistUnique
+         stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD:Control.Monad.STM
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Format.Parse
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.LocalTime.LocalTime
+         transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.Trans.Error
+         unix-time-0.3.6@unixt_4DXmhADld9WFju1Q636Hdx:Data.UnixTime.Diff
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.0.2@attop_F2JR8EcnzjH8eSBi5YocsE:Data.Attoparsec.Internal.Types
+                         base-4.8.2.0:Control.Applicative base-4.8.2.0:Data.Either
+                         base-4.8.2.0:Data.Functor.Identity base-4.8.2.0:Data.Monoid
+                         base-4.8.2.0:Data.Type.Equality base-4.8.2.0:Data.Void
+                         base-4.8.2.0:GHC.Exts base-4.8.2.0:GHC.Generics
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         dlist-0.7.1.2@dlist_AO7XAasbAeyL0XLKeq1Aui:Data.DList
+                         email-validate-2.2.0@email_Ezv99HerU1cHsJboaVb7Q7:Text.Email.Parser
+                         iproute-1.7.0@iprou_EmwGKuwHXxo93hguRyGitY:Data.IP.Addr
+                         iproute-1.7.0@iprou_EmwGKuwHXxo93hguRyGitY:Data.IP.Range
+                         monad-logger-0.3.19@monad_13Fp6KQ7g8TAMOB4si1KkM:Control.Monad.Logger
+                         monad-control-1.0.1.0@monad_7Tqv3C2ASZP4J7swGaIkqS:Control.Monad.Trans.Control
+                         mwc-random-0.13.4.0@mwcra_0lrQ1SkkNA85sa8eZ98xQk:System.Random.MWC
+                         network-uri-2.6.1.0@netwo_8hCRgBDYvZA6nRJCSPBXws:Network.URI
+                         persistent-2.2.4.1@persi_EbZVXqEJK6FKzZqoEa5cj6:Database.Persist.Class.PersistConfig
+                         persistent-2.2.4.1@persi_EbZVXqEJK6FKzZqoEa5cj6:Database.Persist.Sql.Orphan.PersistStore
+                         pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3:Control.Monad.Primitive
+                         resourcet-1.1.7.5@resou_165wgeXO1n8BEqynSK393U:Control.Monad.Trans.Resource.Internal
+                         semigroups-0.18.1@semig_LaeT7FLzCl4KIQUoVrPYl1:Data.List.NonEmpty
+                         semigroups-0.18.1@semig_LaeT7FLzCl4KIQUoVrPYl1:Data.Semigroup
+                         shakespeare-2.0.11@shake_CHTOUuJd3cPJrWSlXolmQR:Text.Css
+                         shakespeare-2.0.11@shake_CHTOUuJd3cPJrWSlXolmQR:Text.Shakespeare
+                         tagged-0.8.4@tagge_LPeicl3HxVfGUMMwMEsAE6:Data.Tagged
+                         template-haskell-2.10.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+                         unordered-containers-0.2.7.1@unord_5iWC5HdL16JGHXLbsgBJnw:Data.HashMap.Base
+                         unordered-containers-0.2.7.1@unord_5iWC5HdL16JGHXLbsgBJnw:Data.HashSet
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Primitive
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Storable
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed.Base
+                         yesod-core-1.4.23@yesod_GU10xZyN3HaFfxkxQduZkk:Yesod.Core.Class.Handler
+                         yesod-core-1.4.23@yesod_GU10xZyN3HaFfxkxQduZkk:Yesod.Core.Internal.LiteApp
+                         yesod-core-1.4.23@yesod_GU10xZyN3HaFfxkxQduZkk:Yesod.Core.Types
+                         zlib-0.6.1.1@zlib_7LjT7TSHX8U3VTy3t378Vu:Codec.Compression.Zlib.Stream
+import  -/  base-4.8.2.0:Data.Functor 5c701b0af1708f0192a25dfe14ce6274
+import  -/  base-4.8.2.0:Data.Tuple 012ad951a59a9d85fe1de36a2f012986
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:GHC.Read b423b4506a014855edbd329b567629f3
+import  -/  base-4.8.2.0:GHC.Show 0e1d8380a8fb0cfb07ebeda3b70cbf38
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  base-4.8.2.0:Text.Read.Lex 724ca44ddd38ddc5f47a501d62736c26
+import  -/  blaze-markup-0.7.1.0@blaze_0tKrf28gRcM35aw8gGohhB:Text.Blaze.Internal 952a44b57b4f65a1c2001ed1d8f26320
+import  -/  blaze-html-0.8.1.2@blaze_EuR2jFLDiz00YoBrv2GRvv:Text.Blaze.Html 6f1cc379f39f03283f4cdfeadab6edb6
+import  -/  containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base e94d20329e6707c26460899044ee8ac3
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text b53ae191632883b10562be5cbaa0b22b
+import  -/  text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Internal d9b6b9a9dd535595b612aea5738b7466
+import  -/  wai-3.2.1.1@wai_D3ciU60zVkf3WsEVeR5d8t:Network.Wai.Internal 4b2e4dc5dae85cb0eb1d834565b5a007
+import  -/  yesod-1.4.3@yesod_2dfl9TV9H8xAf7RAV3K8aS:Yesod 125cdfcee55f1057ad7e264f51a730e2
+import  -/  yesod-core-1.4.23@yesod_GU10xZyN3HaFfxkxQduZkk:Yesod.Core.Class.Dispatch 2d42330fd383fbdaa9f4769959a4c215
+import  -/  yesod-core-1.4.23@yesod_GU10xZyN3HaFfxkxQduZkk:Yesod.Core.Class.Yesod d9c80f4fc1f7c1366dbfe27cd9e8f5ca
+import  -/  yesod-core-1.4.23@yesod_GU10xZyN3HaFfxkxQduZkk:Yesod.Core.Dispatch 917ac18b050561eb9adcf13c10994cfb
+import  -/  yesod-core-1.4.23@yesod_GU10xZyN3HaFfxkxQduZkk:Yesod.Core.Handler a8d6fb4768a2157d41bf792b6eb9edcb
+import  -/  yesod-core-1.4.23@yesod_GU10xZyN3HaFfxkxQduZkk:Yesod.Core.Internal.Run 1582f3d3d374309a3180dff11d575fe4
+import  -/  yesod-core-1.4.23@yesod_GU10xZyN3HaFfxkxQduZkk:Yesod.Core.Internal.TH 601c9bc6c24ddc22879a9d2a071241e3
+import  -/  yesod-core-1.4.23@yesod_GU10xZyN3HaFfxkxQduZkk:Yesod.Core.Types a63f482cebe2c8712f104c0b825eeb3d
+import  -/  yesod-core-1.4.23@yesod_GU10xZyN3HaFfxkxQduZkk:Yesod.Core.Widget eb21bdcadeec066143f963874d1a90da
+import  -/  yesod-core-1.4.23@yesod_GU10xZyN3HaFfxkxQduZkk:Yesod.Routes.Class 397a4689baa8c3fc88366001af6b6c6e
+import  -/  yesod-core-1.4.23@yesod_GU10xZyN3HaFfxkxQduZkk:Yesod.Routes.TH.Types 622e38893b64dc56cf08575f14128bc4
+4c9b168ee34f919efbc272da449fee81
+  $fEqRoute ::
+    GHC.Classes.Eq (Yesod.Routes.Class.Route Main.HelloWorld)
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Yesod.Routes.Class.Route Main.HelloWorld)
+                  Main.$fEqRoute_$c==
+                  Main.$fEqRoute_$c/= -}
+4c9b168ee34f919efbc272da449fee81
+  $fEqRoute_$c/= ::
+    Yesod.Routes.Class.Route Main.HelloWorld
+    -> Yesod.Routes.Class.Route Main.HelloWorld -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ a51 :: Yesod.Routes.Class.Route Main.HelloWorld
+                   b :: Yesod.Routes.Class.Route Main.HelloWorld ->
+                 case a51 of tpl { DEFAULT ->
+                 case b of tpl1 { DEFAULT -> GHC.Types.False } }) -}
+4c9b168ee34f919efbc272da449fee81
+  $fEqRoute_$c== ::
+    Yesod.Routes.Class.Route Main.HelloWorld
+    -> Yesod.Routes.Class.Route Main.HelloWorld -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ ds :: Yesod.Routes.Class.Route Main.HelloWorld
+                   ds1 :: Yesod.Routes.Class.Route Main.HelloWorld ->
+                 case ds of tpl { DEFAULT ->
+                 case ds1 of tpl1 { DEFAULT -> GHC.Types.True } }) -}
+4c9b168ee34f919efbc272da449fee81
+  $fParseRouteHelloWorld ::
+    Yesod.Routes.Class.ParseRoute Main.HelloWorld
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.HelloWorld
+                  Main.$fRenderRouteHelloWorld
+                  Main.$fParseRouteHelloWorld_$cparseRoute -}
+4c9b168ee34f919efbc272da449fee81
+  $fParseRouteHelloWorld1 ::
+    GHC.Base.Maybe (Yesod.Routes.Class.Route Main.HelloWorld)
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Base.Just
+                   @ (Yesod.Routes.Class.Route Main.HelloWorld)
+                   Main.HomeR `cast` (Sub (Sym (Main.TFCo:R:RouteHelloWorld[0])))) -}
+4c9b168ee34f919efbc272da449fee81
+  $fParseRouteHelloWorld_$cparseRoute ::
+    ([Data.Text.Internal.Text],
+     [(Data.Text.Internal.Text, Data.Text.Internal.Text)])
+    -> GHC.Base.Maybe (Yesod.Routes.Class.Route Main.HelloWorld)
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x1 :: ([Data.Text.Internal.Text],
+                          [(Data.Text.Internal.Text, Data.Text.Internal.Text)]) ->
+                 case x1 of wild { (,) x2 ds1 ->
+                 case x2 of wild1 {
+                   [] -> Main.$fParseRouteHelloWorld1
+                   : ipv ipv1
+                   -> GHC.Base.Nothing
+                        @ (Yesod.Routes.Class.Route Main.HelloWorld) } }) -}
+4c9b168ee34f919efbc272da449fee81
+  $fReadRoute ::
+    GHC.Read.Read (Yesod.Routes.Class.Route Main.HelloWorld)
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Yesod.Routes.Class.Route Main.HelloWorld)
+                  Main.$fReadRoute_$s$dmreadsPrec
+                  Main.$fReadRoute_$sreadListDefault
+                  Main.$fReadRoute_$creadPrec
+                  Main.$fReadRoute_$creadListPrec -}
+4c9b168ee34f919efbc272da449fee81
+  $fReadRoute1 ::
+    Text.ParserCombinators.ReadPrec.Prec
+    -> forall b.
+       ([Yesod.Routes.Class.Route Main.HelloWorld]
+        -> Text.ParserCombinators.ReadP.P b)
+       -> Text.ParserCombinators.ReadP.P b
+  {- Arity: 2, Strictness: <L,A><L,C(U)>,
+     Unfolding: InlineRule (2, True, True)
+                (\ eta :: Text.ParserCombinators.ReadPrec.Prec
+                   @ b
+                   eta2 :: [Yesod.Routes.Class.Route Main.HelloWorld]
+                           -> Text.ParserCombinators.ReadP.P b ->
+                 GHC.Read.$wa
+                   @ (Yesod.Routes.Class.Route Main.HelloWorld)
+                   Main.$fReadRoute2
+                     `cast`
+                   (Sym (Text.ParserCombinators.ReadPrec.NTCo:ReadPrec[0]
+                             <Yesod.Routes.Class.Route Main.HelloWorld>_R))
+                   @ b
+                   eta2) -}
+4c9b168ee34f919efbc272da449fee81
+  $fReadRoute2 ::
+    Text.ParserCombinators.ReadPrec.Prec
+    -> Text.ParserCombinators.ReadP.ReadP
+         (Yesod.Routes.Class.Route Main.HelloWorld)
+  {- Arity: 1,
+     Unfolding: (GHC.Read.$fReadDouble10
+                   @ (Yesod.Routes.Class.Route Main.HelloWorld)
+                   Main.$fReadRoute3
+                     `cast`
+                   (Trans
+                        (<Text.ParserCombinators.ReadPrec.Prec>_R
+                         ->_R Sym (Text.ParserCombinators.ReadP.NTCo:ReadP[0]
+                                       <Yesod.Routes.Class.Route Main.HelloWorld>_R))
+                        (Sym (Text.ParserCombinators.ReadPrec.NTCo:ReadPrec[0]
+                                  <Yesod.Routes.Class.Route Main.HelloWorld>_R)))) -}
+4c9b168ee34f919efbc272da449fee81
+  $fReadRoute3 ::
+    Text.ParserCombinators.ReadPrec.Prec
+    -> forall b1.
+       (Yesod.Routes.Class.Route Main.HelloWorld
+        -> Text.ParserCombinators.ReadP.P b1)
+       -> Text.ParserCombinators.ReadP.P b1
+  {- Arity: 2, Strictness: <L,A><L,1*C1(U)>m2, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ w :: Text.ParserCombinators.ReadPrec.Prec
+                   @ b1
+                   w1 :: Yesod.Routes.Class.Route Main.HelloWorld
+                         -> Text.ParserCombinators.ReadP.P b1 ->
+                 case Main.$wa @ b1 w1 of ww { (##) ww1 ->
+                 Text.ParserCombinators.ReadP.Look @ b1 ww1 }) -}
+30fd627d99dd38faf4db720806b84285
+  $fReadRoute4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "HomeR"#) -}
+4c9b168ee34f919efbc272da449fee81
+  $fReadRoute_$creadListPrec ::
+    Text.ParserCombinators.ReadPrec.ReadPrec
+      [Yesod.Routes.Class.Route Main.HelloWorld]
+  {- Arity: 2, Strictness: <L,A><L,C(U)>,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fReadRoute1
+                  `cast`
+                (Trans
+                     (<Text.ParserCombinators.ReadPrec.Prec>_R
+                      ->_R Sym (Text.ParserCombinators.ReadP.NTCo:ReadP[0]
+                                    <[Yesod.Routes.Class.Route Main.HelloWorld]>_R))
+                     (Sym (Text.ParserCombinators.ReadPrec.NTCo:ReadPrec[0]
+                               <[Yesod.Routes.Class.Route Main.HelloWorld]>_R))) -}
+4c9b168ee34f919efbc272da449fee81
+  $fReadRoute_$creadPrec ::
+    Text.ParserCombinators.ReadPrec.ReadPrec
+      (Yesod.Routes.Class.Route Main.HelloWorld)
+  {- Arity: 1,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fReadRoute2
+                  `cast`
+                (Sym (Text.ParserCombinators.ReadPrec.NTCo:ReadPrec[0]
+                          <Yesod.Routes.Class.Route Main.HelloWorld>_R)) -}
+4c9b168ee34f919efbc272da449fee81
+  $fReadRoute_$s$dmreadsPrec ::
+    GHC.Types.Int
+    -> Text.ParserCombinators.ReadP.ReadS
+         (Yesod.Routes.Class.Route Main.HelloWorld)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (-1, True, False)
+                (\ eta :: GHC.Types.Int ->
+                 Text.ParserCombinators.ReadPrec.readPrec_to_S
+                   @ (Yesod.Routes.Class.Route Main.HelloWorld)
+                   Main.$fReadRoute_$creadPrec
+                   eta) -}
+4c9b168ee34f919efbc272da449fee81
+  $fReadRoute_$sreadListDefault ::
+    Text.ParserCombinators.ReadP.ReadS
+      [Yesod.Routes.Class.Route Main.HelloWorld]
+  {- Arity: 1,
+     Unfolding: InlineRule (0, True, False)
+                (Text.ParserCombinators.ReadP.run
+                   @ [Yesod.Routes.Class.Route Main.HelloWorld]
+                   ((Main.$fReadRoute_$creadListPrec
+                       `cast`
+                     (Text.ParserCombinators.ReadPrec.NTCo:ReadPrec[0]
+                          <[Yesod.Routes.Class.Route Main.HelloWorld]>_R)
+                       GHC.Read.$fRead(,)7)
+                      `cast`
+                    (Text.ParserCombinators.ReadP.NTCo:ReadP[0]
+                         <[Yesod.Routes.Class.Route Main.HelloWorld]>_R)
+                      @ [Yesod.Routes.Class.Route Main.HelloWorld]
+                      (Text.ParserCombinators.ReadP.$fApplicativeP_$creturn
+                         @ [Yesod.Routes.Class.Route Main.HelloWorld]))) -}
+4c9b168ee34f919efbc272da449fee81
+  $fRenderRouteHelloWorld ::
+    Yesod.Routes.Class.RenderRoute Main.HelloWorld
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.HelloWorld
+                  Main.$fEqRoute
+                  Main.$fRenderRouteHelloWorld_$crenderRoute -}
+6a77dba167d8a41fbe9a708c2a3ab105
+  $fRenderRouteHelloWorld1 ::
+    ([Data.Text.Internal.Text],
+     [(Data.Text.Internal.Text, Data.Text.Internal.Text)])
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: ((GHC.Types.[] @ Data.Text.Internal.Text,
+                  GHC.Types.[]
+                    @ (Data.Text.Internal.Text, Data.Text.Internal.Text))) -}
+4c9b168ee34f919efbc272da449fee81
+  $fRenderRouteHelloWorld_$crenderRoute ::
+    Yesod.Routes.Class.Route Main.HelloWorld
+    -> ([Data.Text.Internal.Text],
+        [(Data.Text.Internal.Text, Data.Text.Internal.Text)])
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Yesod.Routes.Class.Route Main.HelloWorld ->
+                 case ds of tpl { DEFAULT -> Main.$fRenderRouteHelloWorld1 }) -}
+4c9b168ee34f919efbc272da449fee81
+  $fRouteAttrsHelloWorld ::
+    Yesod.Routes.Class.RouteAttrs Main.HelloWorld
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.HelloWorld
+                  Main.$fRenderRouteHelloWorld
+                  Main.$fRouteAttrsHelloWorld_$crouteAttrs -}
+08ef64e5bb2f1073933df82bc212f0f2
+  $fRouteAttrsHelloWorld1 ::
+    Data.Set.Base.Set Data.Text.Internal.Text
+  {- Unfolding: (Main.$fRouteAttrsHelloWorld_$sfromList
+                   (GHC.Types.[] @ Data.Text.Internal.Text)) -}
+4c9b168ee34f919efbc272da449fee81
+  $fRouteAttrsHelloWorld_$crouteAttrs ::
+    Yesod.Routes.Class.Route Main.HelloWorld
+    -> Data.Set.Base.Set Data.Text.Internal.Text
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Yesod.Routes.Class.Route Main.HelloWorld ->
+                 case ds of tpl { DEFAULT -> Main.$fRouteAttrsHelloWorld1 }) -}
+d954140f307393032ac01d9655b1b16a
+  $fRouteAttrsHelloWorld_$sfromList ::
+    [Data.Text.Internal.Text]
+    -> Data.Set.Base.Set Data.Text.Internal.Text
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ ds :: [Data.Text.Internal.Text] ->
+                 case ds of wild {
+                   [] -> Data.Set.Base.Tip @ Data.Text.Internal.Text
+                   : x1 ds1
+                   -> case ds1 of wild1 {
+                        []
+                        -> case x1 of dt { Data.Text.Internal.Text ipv ipv1 ipv2 ->
+                           Data.Set.Base.Bin
+                             @ Data.Text.Internal.Text
+                             1
+                             dt
+                             (Data.Set.Base.Tip @ Data.Text.Internal.Text)
+                             (Data.Set.Base.Tip @ Data.Text.Internal.Text) }
+                        : ipv ipv1
+                        -> case x1 of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                           case ipv of ww4 { Data.Text.Internal.Text ww5 ww6 ww7 ->
+                           case Data.Text.$w$ccompare ww1 ww2 ww3 ww5 ww6 ww7 of wild2 {
+                             DEFAULT
+                             -> Main.$fRouteAttrsHelloWorld_go5
+                                  (Data.Set.Base.Bin
+                                     @ Data.Text.Internal.Text
+                                     1
+                                     ww
+                                     (Data.Set.Base.Tip @ Data.Text.Internal.Text)
+                                     (Data.Set.Base.Tip @ Data.Text.Internal.Text))
+                                  wild1
+                             GHC.Types.LT
+                             -> Main.$wgo5
+                                  1
+                                  (Data.Set.Base.Bin
+                                     @ Data.Text.Internal.Text
+                                     1
+                                     ww
+                                     (Data.Set.Base.Tip @ Data.Text.Internal.Text)
+                                     (Data.Set.Base.Tip @ Data.Text.Internal.Text))
+                                  wild1 } } } } }) -}
+8cddfb3696250054f228d093c502cd04
+  $fRouteAttrsHelloWorld_go5 ::
+    Data.Set.Base.Set Data.Text.Internal.Text
+    -> [Data.Text.Internal.Text]
+    -> Data.Set.Base.Set Data.Text.Internal.Text
+  {- Arity: 2, Strictness: <S,1*U><S,1*U> -}
+4c9b168ee34f919efbc272da449fee81
+  $fShowRoute ::
+    GHC.Show.Show (Yesod.Routes.Class.Route Main.HelloWorld)
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Yesod.Routes.Class.Route Main.HelloWorld)
+                  Main.$fShowRoute_$cshowsPrec
+                  Main.$fShowRoute_$cshow
+                  Main.$fShowRoute_$cshowList -}
+4c9b168ee34f919efbc272da449fee81
+  $fShowRoute1 ::
+    Yesod.Routes.Class.Route Main.HelloWorld -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ ds :: Yesod.Routes.Class.Route Main.HelloWorld
+                   eta :: GHC.Base.String ->
+                 case ds of tpl { DEFAULT ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b c :: GHC.Types.Char -> b -> b[OneShot] n :: b[OneShot] ->
+                    GHC.Base.foldr @ GHC.Types.Char @ b c n Main.$fReadRoute4)
+                   eta }) -}
+4c9b168ee34f919efbc272da449fee81
+  $fShowRoute_$cshow ::
+    Yesod.Routes.Class.Route Main.HelloWorld -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x1 :: Yesod.Routes.Class.Route Main.HelloWorld ->
+                 case x1 of tpl { DEFAULT -> Main.$fReadRoute4 }) -}
+4c9b168ee34f919efbc272da449fee81
+  $fShowRoute_$cshowList ::
+    [Yesod.Routes.Class.Route Main.HelloWorld] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ (Yesod.Routes.Class.Route Main.HelloWorld)
+                   Main.$fShowRoute1) -}
+4c9b168ee34f919efbc272da449fee81
+  $fShowRoute_$cshowsPrec ::
+    GHC.Types.Int
+    -> Yesod.Routes.Class.Route Main.HelloWorld -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S,1*U><L,1*U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ ds :: GHC.Types.Int
+                   ds1 :: Yesod.Routes.Class.Route Main.HelloWorld
+                   eta :: GHC.Base.String ->
+                 case ds1 of tpl { DEFAULT ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b c :: GHC.Types.Char -> b -> b[OneShot] n :: b[OneShot] ->
+                    GHC.Base.foldr @ GHC.Types.Char @ b c n Main.$fReadRoute4)
+                   eta }) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodDispatchHelloWorld ::
+    Yesod.Core.Class.Dispatch.YesodDispatch Main.HelloWorld
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.HelloWorld
+                  Main.$fYesodHelloWorld
+                  Main.$fYesodDispatchHelloWorld_$cyesodDispatch -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodDispatchHelloWorld_$cyesodDispatch ::
+    Yesod.Core.Types.YesodRunnerEnv Main.HelloWorld
+    -> Network.Wai.Application
+  {- Arity: 2,
+     Strictness: <L,U(U,U,U,U,C(U(U,1*U(U,U,U))))><S(LLLLLLLSLLLLLLLL),1*U(U(U,U,U,U),U,U,U,U,U,U,U,U,U,U,U,U,U,U,U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ w :: Yesod.Core.Types.YesodRunnerEnv Main.HelloWorld
+                   w1 :: Network.Wai.Internal.Request ->
+                 case w1 of ww { Network.Wai.Internal.Request ww1 ww2 ww3 ww4 ww5 ww6 ww7 ww8 ww9 ww10 ww11 ww12 ww13 ww14 ww15 ww16 ->
+                 Main.$w$cyesodDispatch
+                   w
+                   ww1
+                   ww2
+                   ww3
+                   ww4
+                   ww5
+                   ww6
+                   ww7
+                   ww8
+                   ww9
+                   ww10
+                   ww11
+                   ww12
+                   ww13
+                   ww14
+                   ww15
+                   ww16 }) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld :: Yesod.Core.Class.Yesod.Yesod Main.HelloWorld
+  DFunId[0]
+  {- Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.HelloWorld
+                  Main.$fRenderRouteHelloWorld
+                  Main.$fYesodHelloWorld_$s$dmapproot
+                  Main.$fYesodHelloWorld_$cerrorHandler
+                  Main.$fYesodHelloWorld_$cdefaultLayout
+                  Main.$fYesodHelloWorld_$s$dmurlRenderOverride
+                  Main.$fYesodHelloWorld_$curlParamRenderOverride
+                  Main.$fYesodHelloWorld_$cisAuthorized
+                  Main.$fYesodHelloWorld_$cisWriteRequest
+                  Main.$fYesodHelloWorld_$s$dmauthRoute
+                  Main.$fYesodHelloWorld_$ccleanPath
+                  Main.$fYesodHelloWorld_$cjoinPath
+                  Main.$fYesodHelloWorld_$caddStaticContent
+                  Main.$fYesodHelloWorld_$s$dmmaximumContentLength
+                  Main.$fYesodHelloWorld_$cmakeLogger
+                  Main.$fYesodHelloWorld_$cmessageLoggerSource
+                  Main.$fYesodHelloWorld_$s$dmjsLoader
+                  Main.$fYesodHelloWorld_$cmakeSessionBackend
+                  Main.$fYesodHelloWorld_$cfileUpload
+                  Main.$fYesodHelloWorld_$s$dmshouldLog
+                  Main.$fYesodHelloWorld_$cshouldLogIO
+                  Main.$fYesodHelloWorld_$cyesodMiddleware
+                  Main.$fYesodHelloWorld_$cyesodWithInternalState -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld1 ::
+    Yesod.Core.Content.ToTypedContent res =>
+    Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO res
+    -> Yesod.Core.Types.HandlerData
+         Main.HelloWorld (Yesod.Core.Types.MonadRoute GHC.Types.IO)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, res #)
+  {- Arity: 4,
+     Strictness: <L,A><L,1*C1(C1(U(U,U)))><S(SSLSL),1*U(U,U,U,U,U)><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (4, True, False)
+                (\ @ res
+                   w :: Yesod.Core.Content.ToTypedContent res
+                   w1 :: Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO res
+                   w2 :: Yesod.Core.Types.HandlerData
+                           Main.HelloWorld (Yesod.Core.Types.MonadRoute GHC.Types.IO)
+                   w3 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case w2 of ww { Yesod.Core.Types.HandlerData ww1 ww2 ww3 ww4 ww5 ->
+                 Main.$wa1 @ res w1 ww1 ww2 ww3 ww4 ww5 w3 }) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld10 ::
+    Data.Text.Internal.Text
+    -> Data.Text.Internal.Text
+    -> Data.ByteString.Lazy.Internal.ByteString
+    -> Yesod.Core.Types.HandlerData
+         Main.HelloWorld (Yesod.Core.Types.MonadRoute GHC.Types.IO)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          GHC.Base.Maybe
+            (Data.Either.Either
+               Data.Text.Internal.Text
+               (Yesod.Routes.Class.Route Main.HelloWorld,
+                [(Data.Text.Internal.Text, Data.Text.Internal.Text)])) #)
+  {- Arity: 5, HasNoCafRefs, Strictness: <L,A><L,A><L,A><L,A><L,U>,
+     Unfolding: InlineRule (5, True, True)
+                (\ ds :: Data.Text.Internal.Text
+                   ds1 :: Data.Text.Internal.Text
+                   ds2 :: Data.ByteString.Lazy.Internal.ByteString
+                   eta :: Yesod.Core.Types.HandlerData
+                            Main.HelloWorld (Yesod.Core.Types.MonadRoute GHC.Types.IO)
+                   eta2 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (# eta2,
+                    GHC.Base.Nothing
+                      @ (Data.Either.Either
+                           Data.Text.Internal.Text
+                           (Yesod.Routes.Class.Route Main.HelloWorld,
+                            [(Data.Text.Internal.Text, Data.Text.Internal.Text)])) #)) -}
+10ec74c92fc1dadc7eb1854687059a63
+  $fYesodHelloWorld11 ::
+    Data.Text.Internal.Text -> Data.Text.Internal.Text
+  {- Arity: 1 -}
+fb465c52f720b4193b0f3b829887742d
+  $fYesodHelloWorld12 :: [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Data.Text.Internal.empty_
+                   (GHC.Types.[] @ Data.Text.Internal.Text)) -}
+ee6061909a1918ffa8698d5bf4b9253c
+  $fYesodHelloWorld13 ::
+    (Data.Text.Internal.Text, Data.Text.Internal.Text)
+    -> (Data.ByteString.Internal.ByteString,
+        GHC.Base.Maybe Data.ByteString.Internal.ByteString)
+  {- Arity: 1,
+     Unfolding: (\ ds :: (Data.Text.Internal.Text,
+                          Data.Text.Internal.Text) ->
+                 (case ds of wild { (,) x1 y -> Data.Text.Encoding.encodeUtf8 x1 },
+                  case ds of wild { (,) x1 y ->
+                  case y of wild1 { Data.Text.Internal.Text dt1 dt2 dt3 ->
+                  case Data.Text.Internal.empty_ of wild2 { Data.Text.Internal.Text dt4 dt5 dt6 ->
+                  case GHC.Prim.tagToEnum#
+                         @ GHC.Types.Bool
+                         (GHC.Prim.==# dt3 dt6) of wild3 {
+                    GHC.Types.False
+                    -> GHC.Base.Just
+                         @ Data.ByteString.Internal.ByteString
+                         (Data.Text.Encoding.$wencodeUtf8 dt1 dt2 dt3)
+                    GHC.Types.True
+                    -> case {__pkg_ccall text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne _hs_text_memcmp GHC.Prim.ByteArray#
+                                                                                                  -> GHC.Prim.Word#
+                                                                                                  -> GHC.Prim.ByteArray#
+                                                                                                  -> GHC.Prim.Word#
+                                                                                                  -> GHC.Prim.Word#
+                                                                                                  -> GHC.Prim.State#
+                                                                                                       GHC.Prim.RealWorld
+                                                                                                  -> (# GHC.Prim.State#
+                                                                                                          GHC.Prim.RealWorld,
+                                                                                                        GHC.Prim.Int# #)}
+                              dt1
+                              (GHC.Prim.int2Word# dt2)
+                              dt4
+                              (GHC.Prim.int2Word# dt5)
+                              (GHC.Prim.int2Word# dt3)
+                              GHC.Prim.realWorld# of wild4 { (#,#) ds11 ds12 ->
+                       case GHC.Prim.narrow32Int# ds12 of wild5 {
+                         DEFAULT
+                         -> GHC.Base.Just
+                              @ Data.ByteString.Internal.ByteString
+                              (Data.Text.Encoding.$wencodeUtf8 dt1 dt2 dt3)
+                         0
+                         -> GHC.Base.Nothing
+                              @ Data.ByteString.Internal.ByteString } } } } } })) -}
+969e444a94c0f46d30adf9fe648b0a3a
+  $fYesodHelloWorld14 ::
+    Data.Text.Internal.Text -> Data.Text.Internal.Text
+  {- Arity: 1,
+     Unfolding: (\ t :: Data.Text.Internal.Text ->
+                 case t of wild { Data.Text.Internal.Text dt dt1 dt2 ->
+                 let {
+                   a51 :: GHC.Prim.Int# = GHC.Prim.+# dt1 dt2
+                 } in
+                 letrec {
+                   $wloop_all :: GHC.Prim.Int# -> GHC.Types.Bool
+                     {- Arity: 1, Strictness: <L,U>, Inline: [0] -}
+                   = \ ww :: GHC.Prim.Int# ->
+                     case GHC.Prim.tagToEnum#
+                            @ GHC.Types.Bool
+                            (GHC.Prim.>=# ww a51) of wild1 {
+                       GHC.Types.False
+                       -> case GHC.Prim.indexWord16Array# dt ww of r# { DEFAULT ->
+                          case GHC.Prim.tagToEnum#
+                                 @ GHC.Types.Bool
+                                 (GHC.Prim.geWord# r# __word 55296) of wild2 {
+                            GHC.Types.False
+                            -> case GHC.Prim.chr# (GHC.Prim.word2Int# r#) of wild4 {
+                                 DEFAULT -> GHC.Types.False '-' -> $wloop_all (GHC.Prim.+# ww 1) }
+                            GHC.Types.True
+                            -> case GHC.Prim.tagToEnum#
+                                      @ GHC.Types.Bool
+                                      (GHC.Prim.leWord# r# __word 56319) of wild3 {
+                                 GHC.Types.False
+                                 -> case GHC.Prim.chr# (GHC.Prim.word2Int# r#) of wild4 {
+                                      DEFAULT -> GHC.Types.False
+                                      '-' -> $wloop_all (GHC.Prim.+# ww 1) }
+                                 GHC.Types.True
+                                 -> case GHC.Prim.indexWord16Array#
+                                           dt
+                                           (GHC.Prim.+# ww 1) of r#1 { DEFAULT ->
+                                    case GHC.Prim.chr#
+                                           (GHC.Prim.+#
+                                              (GHC.Prim.+#
+                                                 (GHC.Prim.uncheckedIShiftL#
+                                                    (GHC.Prim.-# (GHC.Prim.word2Int# r#) 55296)
+                                                    10)
+                                                 (GHC.Prim.-# (GHC.Prim.word2Int# r#1) 56320))
+                                              65536) of wild4 {
+                                      DEFAULT -> GHC.Types.False
+                                      '-' -> $wloop_all (GHC.Prim.+# ww 2) } } } } }
+                       GHC.Types.True -> GHC.Types.True }
+                 } in
+                 case $wloop_all dt1 of wild1 {
+                   GHC.Types.False -> wild
+                   GHC.Types.True
+                   -> case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.>=# 1 dt2) of wild3 {
+                        GHC.Types.False
+                        -> case Data.Text.$witerN
+                                  Main.$fYesodHelloWorld15
+                                  dt
+                                  dt1
+                                  dt2 of ww4 { DEFAULT ->
+                           case GHC.Prim.-# dt2 ww4 of wild5 {
+                             DEFAULT -> Data.Text.Internal.Text dt (GHC.Prim.+# dt1 ww4) wild5
+                             0 -> Data.Text.Internal.empty } }
+                        GHC.Types.True -> Data.Text.Internal.empty } } }) -}
+98f98b703ad2078a027418a06010327b
+  $fYesodHelloWorld15 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 1) -}
+729d6f4c7efb2e66f830496da48305a4
+  $fYesodHelloWorld16 :: Data.Text.Internal.Text -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(A,A,U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x1 :: Data.Text.Internal.Text ->
+                 case x1 of wild { Data.Text.Internal.Text dt dt1 dt2 ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.<=# dt2 0) of wild1 {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True -> GHC.Types.False } }) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld17 ::
+    Yesod.Core.Types.HandlerData
+      Main.HelloWorld (Yesod.Core.Types.MonadRoute GHC.Types.IO)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Types.Bool #)
+  {- Arity: 2,
+     Unfolding: (\ r :: Yesod.Core.Types.HandlerData
+                          Main.HelloWorld (Yesod.Core.Types.MonadRoute GHC.Types.IO)
+                   s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case (Main.$fYesodHelloWorld26
+                         `cast`
+                       (Yesod.Core.Types.NTCo:HandlerT[0]
+                            <Main.HelloWorld>_N
+                            <GHC.Types.IO>_N
+                            <Network.Wai.Internal.Request>_N)
+                         r)
+                        `cast`
+                      (GHC.Types.NTCo:IO[0] <Network.Wai.Internal.Request>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 (# ipv,
+                    case GHC.List.elem
+                           @ Network.HTTP.Types.Method.Method
+                           Data.ByteString.Internal.$fEqByteString
+                           (case ipv1 of wild { Network.Wai.Internal.Request ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ->
+                            ds2 })
+                           Main.$fYesodHelloWorld18 of wild {
+                      GHC.Types.False -> GHC.Types.True
+                      GHC.Types.True -> GHC.Types.False } #) }) -}
+4f1424c7a8527e59887243d9a0418f54
+  $fYesodHelloWorld18 :: [Network.HTTP.Types.Method.Method]
+  {- Unfolding: (GHC.Types.:
+                   @ Network.HTTP.Types.Method.Method
+                   Main.$fYesodHelloWorld25
+                   Main.$fYesodHelloWorld19) -}
+54ca33a6bb5dab4b3d65fddcdfdb0be3
+  $fYesodHelloWorld19 :: [Network.HTTP.Types.Method.Method]
+  {- Unfolding: (GHC.Types.:
+                   @ Network.HTTP.Types.Method.Method
+                   Main.$fYesodHelloWorld24
+                   Main.$fYesodHelloWorld20) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld2 ::
+    Main.HelloWorld
+    -> Control.Monad.Logger.LogSource
+    -> Control.Monad.Logger.LogLevel
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Types.Bool #)
+  {- Arity: 4, HasNoCafRefs, Strictness: <L,A><L,A><L,1*U><L,U>,
+     Unfolding: InlineRule (4, True, False)
+                (\ a130 :: Main.HelloWorld
+                   b :: Control.Monad.Logger.LogSource
+                   c :: Control.Monad.Logger.LogLevel
+                   eta2 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (# eta2, Yesod.Core.Class.Yesod.defaultShouldLog b c #)) -}
+fef5a0b4fc892795c250d38dfc5c71c4
+  $fYesodHelloWorld20 :: [Network.HTTP.Types.Method.Method]
+  {- Unfolding: (GHC.Types.:
+                   @ Network.HTTP.Types.Method.Method
+                   Main.$fYesodHelloWorld23
+                   Main.$fYesodHelloWorld21) -}
+854c7d547cdfb152185c6280f9b5643c
+  $fYesodHelloWorld21 :: [Network.HTTP.Types.Method.Method]
+  {- Unfolding: (GHC.Types.:
+                   @ Network.HTTP.Types.Method.Method
+                   Main.$fYesodHelloWorld22
+                   (GHC.Types.[] @ Network.HTTP.Types.Method.Method)) -}
+31d3704a7fb61fbfea271a7774325d18
+  $fYesodHelloWorld22 :: Network.HTTP.Types.Method.Method
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds1 { (#,#) ipv ipv1 ->
+                 let {
+                   addr# :: GHC.Prim.Addr# = "TRACE"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6 strlen GHC.Prim.Addr#
+                                                                                           -> GHC.Prim.State#
+                                                                                                GHC.Prim.RealWorld
+                                                                                           -> (# GHC.Prim.State#
+                                                                                                   GHC.Prim.RealWorld,
+                                                                                                 GHC.Prim.Word# #)}
+                        addr#
+                        ipv of wild { (#,#) ds3 ds4 ->
+                 Data.ByteString.Internal.PS
+                   addr#
+                   (GHC.ForeignPtr.PlainForeignPtr ipv1)
+                   0
+                   (GHC.Prim.word2Int# ds4) } }) -}
+e028088f6659eed021921bd934b74a4b
+  $fYesodHelloWorld23 :: Network.HTTP.Types.Method.Method
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds1 { (#,#) ipv ipv1 ->
+                 let {
+                   addr# :: GHC.Prim.Addr# = "OPTIONS"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6 strlen GHC.Prim.Addr#
+                                                                                           -> GHC.Prim.State#
+                                                                                                GHC.Prim.RealWorld
+                                                                                           -> (# GHC.Prim.State#
+                                                                                                   GHC.Prim.RealWorld,
+                                                                                                 GHC.Prim.Word# #)}
+                        addr#
+                        ipv of wild { (#,#) ds3 ds4 ->
+                 Data.ByteString.Internal.PS
+                   addr#
+                   (GHC.ForeignPtr.PlainForeignPtr ipv1)
+                   0
+                   (GHC.Prim.word2Int# ds4) } }) -}
+6d2c9c290c1b04b69ee125a17eee30c3
+  $fYesodHelloWorld24 :: Network.HTTP.Types.Method.Method
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds1 { (#,#) ipv ipv1 ->
+                 let {
+                   addr# :: GHC.Prim.Addr# = "HEAD"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6 strlen GHC.Prim.Addr#
+                                                                                           -> GHC.Prim.State#
+                                                                                                GHC.Prim.RealWorld
+                                                                                           -> (# GHC.Prim.State#
+                                                                                                   GHC.Prim.RealWorld,
+                                                                                                 GHC.Prim.Word# #)}
+                        addr#
+                        ipv of wild { (#,#) ds3 ds4 ->
+                 Data.ByteString.Internal.PS
+                   addr#
+                   (GHC.ForeignPtr.PlainForeignPtr ipv1)
+                   0
+                   (GHC.Prim.word2Int# ds4) } }) -}
+1a0443ffb3ee38120364f714d18464b3
+  $fYesodHelloWorld25 :: Network.HTTP.Types.Method.Method
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds1 { (#,#) ipv ipv1 ->
+                 let {
+                   addr# :: GHC.Prim.Addr# = "GET"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6 strlen GHC.Prim.Addr#
+                                                                                           -> GHC.Prim.State#
+                                                                                                GHC.Prim.RealWorld
+                                                                                           -> (# GHC.Prim.State#
+                                                                                                   GHC.Prim.RealWorld,
+                                                                                                 GHC.Prim.Word# #)}
+                        addr#
+                        ipv of wild { (#,#) ds3 ds4 ->
+                 Data.ByteString.Internal.PS
+                   addr#
+                   (GHC.ForeignPtr.PlainForeignPtr ipv1)
+                   0
+                   (GHC.Prim.word2Int# ds4) } }) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld26 ::
+    Yesod.Core.Types.HandlerT
+      Main.HelloWorld GHC.Types.IO Network.Wai.Internal.Request
+  {- Unfolding: (Yesod.Core.Handler.waiRequest
+                   @ (Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO)
+                   Main.$fYesodHelloWorld_$s$fMonadHandlerHandlerT) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld27 ::
+    Control.Monad.Trans.Resource.Internal.MonadResource
+      (Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fYesodHelloWorld_$s$fMonadResourceHandlerT -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld28 ::
+    Control.Monad.Base.MonadBase
+      GHC.Types.IO
+      (Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fYesodHelloWorld_$s$fMonadBasebHandlerT -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld29 ::
+    GHC.Base.Monad
+      (Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fYesodHelloWorld_$s$fMonadHandlerT -}
+63c3cd72b1213d5f4e91f87797893bed
+  $fYesodHelloWorld3 :: Yesod.Core.Types.FileUpload
+  {- Strictness: m1,
+     Unfolding: (Yesod.Core.Types.FileUploadMemory
+                   Main.$fYesodHelloWorld4) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld30 ::
+    GHC.Base.String
+    -> Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO a
+  {- Arity: 1, Strictness: <B,U>b,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ a51 eta :: [GHC.Types.Char] ->
+                 GHC.Err.error
+                   @ (Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO a51)
+                   eta) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld31 ::
+    GHC.Base.Applicative
+      (Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fYesodHelloWorld_$s$fApplicativeHandlerT -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld32 ::
+    GHC.Base.Functor
+      (Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                (Yesod.Core.Handler.$s$fFunctorHandlerT @ Main.HelloWorld) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld33 ::
+    Control.Monad.IO.Class.MonadIO
+      (Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fYesodHelloWorld_$s$fMonadIOHandlerT -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld34 ::
+    Control.Monad.Catch.MonadThrow
+      (Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fYesodHelloWorld_$s$fMonadThrowHandlerT -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld35 ::
+    Yesod.Routes.Class.Route Main.HelloWorld
+    -> GHC.Types.Bool
+    -> Yesod.Core.Types.HandlerData
+         Main.HelloWorld (Yesod.Core.Types.MonadRoute GHC.Types.IO)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Yesod.Core.Types.AuthResult #)
+  {- Arity: 4, HasNoCafRefs, Strictness: <L,A><L,A><L,A><L,U>,
+     Unfolding: InlineRule (4, True, True)
+                (\ ds :: Yesod.Routes.Class.Route Main.HelloWorld
+                   ds1 :: GHC.Types.Bool
+                   eta :: Yesod.Core.Types.HandlerData
+                            Main.HelloWorld (Yesod.Core.Types.MonadRoute GHC.Types.IO)
+                   eta2 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (# eta2, Yesod.Core.Types.Authorized #)) -}
+7f086d686004087a625770ed87d37ba6
+  $fYesodHelloWorld4 ::
+    Data.ByteString.Internal.ByteString
+    -> Network.Wai.Parse.FileInfo ()
+    -> GHC.Types.IO Data.ByteString.Internal.ByteString
+    -> GHC.Types.IO Data.ByteString.Lazy.Internal.ByteString
+  {- Arity: 3, Strictness: <L,A><L,A><L,U>,
+     Unfolding: InlineRule (3, True, True)
+                (\ w1 :: Data.ByteString.Internal.ByteString
+                   w2 :: Network.Wai.Parse.FileInfo ()
+                   w3 :: GHC.Types.IO Data.ByteString.Internal.ByteString ->
+                 Network.Wai.Parse.$wlbsBackEnd
+                   @ Data.ByteString.Internal.ByteString
+                   @ (Network.Wai.Parse.FileInfo ())
+                   @ GHC.Types.IO
+                   GHC.Base.$fMonadIO
+                   w3) -}
+f47f4ce2558064cb12e6ea848014dee0
+  $fYesodHelloWorld5 :: Yesod.Core.Types.FileUpload
+  {- Strictness: m2,
+     Unfolding: (Yesod.Core.Types.FileUploadDisk
+                   (Network.Wai.Parse.tempFileBackEnd1
+                      @ Data.ByteString.Internal.ByteString
+                      @ (Network.Wai.Parse.FileInfo ()))
+                     `cast`
+                   (<Control.Monad.Trans.Resource.InternalState>_R
+                    ->_R <Data.ByteString.Internal.ByteString>_R
+                    ->_R <Network.Wai.Parse.FileInfo ()>_R
+                    ->_R <GHC.Types.IO Data.ByteString.Internal.ByteString>_R
+                    ->_R Sym (GHC.Types.NTCo:IO[0] <GHC.IO.FilePath>_R))) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld6 ::
+    Main.HelloWorld
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          GHC.Base.Maybe Yesod.Core.Types.SessionBackend #)
+  {- Arity: 2, Strictness: <L,A><L,U>, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, True)
+                (\ w :: Main.HelloWorld
+                   w1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 Main.$wa2 w1) -}
+9ceeaaa7685f4e38dc0edb02d6cec0b7
+  $fYesodHelloWorld7 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (__integer 7200000000000000) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld8 ::
+    Main.HelloWorld
+    -> Yesod.Core.Types.Logger
+    -> Language.Haskell.TH.Syntax.Loc
+    -> Control.Monad.Logger.LogSource
+    -> Control.Monad.Logger.LogLevel
+    -> System.Log.FastLogger.LogStr.LogStr
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 7,
+     Strictness: <L,A><L,U(U(A,1*U(U),1*U(U(U),U(U),A,U),1*C1(U(U,U))),U)><L,1*U(U,U,U,U(1*U(U),1*U(U)),A)><L,1*U(U,U,U)><S,U><L,1*U(U,C(U))><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (7, True, True)
+                (\ w :: Main.HelloWorld
+                   w1 :: Yesod.Core.Types.Logger
+                   w2 :: Language.Haskell.TH.Syntax.Loc
+                   w3 :: Control.Monad.Logger.LogSource
+                   w4 :: Control.Monad.Logger.LogLevel
+                   w5 :: System.Log.FastLogger.LogStr.LogStr
+                   w6 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 Main.$wa3 w1 w2 w3 w4 w5 w6) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld9 ::
+    Main.HelloWorld
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Yesod.Core.Types.Logger #)
+  {- Arity: 2, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ ds :: Main.HelloWorld
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 Yesod.Core.Class.Yesod.defaultMakeLogger1 eta) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$caddStaticContent ::
+    Data.Text.Internal.Text
+    -> Data.Text.Internal.Text
+    -> Data.ByteString.Lazy.Internal.ByteString
+    -> Yesod.Core.Types.HandlerT
+         Main.HelloWorld
+         GHC.Types.IO
+         (GHC.Base.Maybe
+            (Data.Either.Either
+               Data.Text.Internal.Text
+               (Yesod.Routes.Class.Route Main.HelloWorld,
+                [(Data.Text.Internal.Text, Data.Text.Internal.Text)])))
+  {- Arity: 5, HasNoCafRefs, Strictness: <L,A><L,A><L,A><L,A><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fYesodHelloWorld10
+                  `cast`
+                (<Data.Text.Internal.Text>_R
+                 ->_R <Data.Text.Internal.Text>_R
+                 ->_R <Data.ByteString.Lazy.Internal.ByteString>_R
+                 ->_R Trans
+                          (<Yesod.Core.Types.HandlerData
+                              Main.HelloWorld (Yesod.Core.Types.MonadRoute GHC.Types.IO)>_R
+                           ->_R Sym (GHC.Types.NTCo:IO[0]
+                                         <GHC.Base.Maybe
+                                            (Data.Either.Either
+                                               Data.Text.Internal.Text
+                                               (Yesod.Routes.Class.Route Main.HelloWorld,
+                                                [(Data.Text.Internal.Text,
+                                                  Data.Text.Internal.Text)]))>_R))
+                          (Sym (Yesod.Core.Types.NTCo:HandlerT[0]
+                                    <Main.HelloWorld>_N
+                                    <GHC.Types.IO>_N
+                                    <GHC.Base.Maybe
+                                       (Data.Either.Either
+                                          Data.Text.Internal.Text
+                                          (Yesod.Routes.Class.Route Main.HelloWorld,
+                                           [(Data.Text.Internal.Text,
+                                             Data.Text.Internal.Text)]))>_N))) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$ccleanPath ::
+    Main.HelloWorld
+    -> [Data.Text.Internal.Text]
+    -> Data.Either.Either
+         [Data.Text.Internal.Text] [Data.Text.Internal.Text]
+  {- Arity: 2, Strictness: <L,A><S,U>, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, True)
+                (\ w :: Main.HelloWorld w1 :: [Data.Text.Internal.Text] ->
+                 Main.$w$ccleanPath w1) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$cdefaultLayout ::
+    Yesod.Core.Types.WidgetT Main.HelloWorld GHC.Types.IO ()
+    -> Yesod.Core.Types.HandlerT
+         Main.HelloWorld GHC.Types.IO Text.Blaze.Html.Html
+  {- Arity: 1, Strictness: <L,U> -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$cerrorHandler ::
+    Yesod.Core.Types.ErrorResponse
+    -> Yesod.Core.Types.HandlerT
+         Main.HelloWorld GHC.Types.IO Yesod.Core.Types.TypedContent
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$cfileUpload ::
+    Main.HelloWorld
+    -> Network.Wai.Internal.RequestBodyLength
+    -> Yesod.Core.Types.FileUpload
+  {- Arity: 2, Strictness: <L,A><S,1*U>, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, True)
+                (\ w :: Main.HelloWorld
+                   w1 :: Network.Wai.Internal.RequestBodyLength ->
+                 Main.$w$cfileUpload w1) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$cisAuthorized ::
+    Yesod.Routes.Class.Route Main.HelloWorld
+    -> GHC.Types.Bool
+    -> Yesod.Core.Types.HandlerT
+         Main.HelloWorld GHC.Types.IO Yesod.Core.Types.AuthResult
+  {- Arity: 4, HasNoCafRefs, Strictness: <L,A><L,A><L,A><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fYesodHelloWorld35
+                  `cast`
+                (<Yesod.Routes.Class.Route Main.HelloWorld>_R
+                 ->_R <GHC.Types.Bool>_R
+                 ->_R Trans
+                          (<Yesod.Core.Types.HandlerData
+                              Main.HelloWorld (Yesod.Core.Types.MonadRoute GHC.Types.IO)>_R
+                           ->_R Sym (GHC.Types.NTCo:IO[0] <Yesod.Core.Types.AuthResult>_R))
+                          (Sym (Yesod.Core.Types.NTCo:HandlerT[0]
+                                    <Main.HelloWorld>_N
+                                    <GHC.Types.IO>_N
+                                    <Yesod.Core.Types.AuthResult>_N))) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$cisWriteRequest ::
+    Yesod.Routes.Class.Route Main.HelloWorld
+    -> Yesod.Core.Types.HandlerT
+         Main.HelloWorld GHC.Types.IO GHC.Types.Bool
+  {- Arity: 3, Strictness: <L,A>, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, True)
+                (\ w :: Yesod.Routes.Class.Route Main.HelloWorld
+                   eta :: Yesod.Core.Types.HandlerData
+                            Main.HelloWorld (Yesod.Core.Types.MonadRoute GHC.Types.IO)
+                   eta2 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 Main.$fYesodHelloWorld17 eta eta2)
+                  `cast`
+                (<Yesod.Routes.Class.Route Main.HelloWorld>_R
+                 ->_R Trans
+                          (<Yesod.Core.Types.HandlerData
+                              Main.HelloWorld (Yesod.Core.Types.MonadRoute GHC.Types.IO)>_R
+                           ->_R Sym (GHC.Types.NTCo:IO[0] <GHC.Types.Bool>_R))
+                          (Sym (Yesod.Core.Types.NTCo:HandlerT[0]
+                                    <Main.HelloWorld>_N <GHC.Types.IO>_N <GHC.Types.Bool>_N))) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$cjoinPath ::
+    Main.HelloWorld
+    -> Data.Text.Internal.Text
+    -> [Data.Text.Internal.Text]
+    -> [(Data.Text.Internal.Text, Data.Text.Internal.Text)]
+    -> Data.ByteString.Builder.Internal.Builder
+  {- Arity: 4, Strictness: <L,A><L,1*U(U,U,U)><L,1*U><L,1*U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (4, True, True)
+                (\ w :: Main.HelloWorld
+                   w1 :: Data.Text.Internal.Text
+                   w2 :: [Data.Text.Internal.Text]
+                   w3 :: [(Data.Text.Internal.Text, Data.Text.Internal.Text)] ->
+                 Main.$w$cjoinPath w1 w2 w3) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$cmakeLogger ::
+    Main.HelloWorld -> GHC.Types.IO Yesod.Core.Types.Logger
+  {- Arity: 2, Strictness: <L,A>,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fYesodHelloWorld9
+                  `cast`
+                (<Main.HelloWorld>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <Yesod.Core.Types.Logger>_R)) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$cmakeSessionBackend ::
+    Main.HelloWorld
+    -> GHC.Types.IO (GHC.Base.Maybe Yesod.Core.Types.SessionBackend)
+  {- Arity: 2, Strictness: <L,A><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fYesodHelloWorld6
+                  `cast`
+                (<Main.HelloWorld>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0]
+                               <GHC.Base.Maybe Yesod.Core.Types.SessionBackend>_R)) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$cmessageLoggerSource ::
+    Main.HelloWorld
+    -> Yesod.Core.Types.Logger
+    -> Language.Haskell.TH.Syntax.Loc
+    -> Control.Monad.Logger.LogSource
+    -> Control.Monad.Logger.LogLevel
+    -> System.Log.FastLogger.LogStr.LogStr
+    -> GHC.Types.IO ()
+  {- Arity: 7,
+     Strictness: <L,A><L,U(U(A,1*U(U),1*U(U(U),U(U),A,U),1*C1(U(U,U))),U)><L,1*U(U,U,U,U(1*U(U),1*U(U)),A)><L,1*U(U,U,U)><S,U><L,1*U(U,C(U))><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fYesodHelloWorld8
+                  `cast`
+                (<Main.HelloWorld>_R
+                 ->_R <Yesod.Core.Types.Logger>_R
+                 ->_R <Language.Haskell.TH.Syntax.Loc>_R
+                 ->_R <Control.Monad.Logger.LogSource>_R
+                 ->_R <Control.Monad.Logger.LogLevel>_R
+                 ->_R <System.Log.FastLogger.LogStr.LogStr>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$cshouldLogIO ::
+    Main.HelloWorld
+    -> Control.Monad.Logger.LogSource
+    -> Control.Monad.Logger.LogLevel
+    -> GHC.Types.IO GHC.Types.Bool
+  {- Arity: 4, HasNoCafRefs, Strictness: <L,A><L,A><L,1*U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fYesodHelloWorld2
+                  `cast`
+                (<Main.HelloWorld>_R
+                 ->_R <Control.Monad.Logger.LogSource>_R
+                 ->_R <Control.Monad.Logger.LogLevel>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <GHC.Types.Bool>_R)) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$curlParamRenderOverride ::
+    Main.HelloWorld
+    -> Yesod.Routes.Class.Route Main.HelloWorld
+    -> [(Data.Text.Internal.Text, Data.Text.Internal.Text)]
+    -> GHC.Base.Maybe Data.ByteString.Builder.Internal.Builder
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,A><L,A><L,A>,
+     Unfolding: InlineRule (3, True, True)
+                (\ y :: Main.HelloWorld
+                   route :: Yesod.Routes.Class.Route Main.HelloWorld
+                   params :: [(Data.Text.Internal.Text, Data.Text.Internal.Text)] ->
+                 GHC.Base.Nothing @ Data.ByteString.Builder.Internal.Builder) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$cyesodMiddleware ::
+    Yesod.Core.Content.ToTypedContent res =>
+    Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO res
+    -> Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO res
+  {- Arity: 4,
+     Strictness: <L,A><L,1*C1(C1(U(U,U)))><S(SSLSL),1*U(U,U,U,U,U)><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fYesodHelloWorld1
+                  `cast`
+                (forall res.
+                 <Yesod.Core.Content.ToTypedContent res>_R
+                 ->_R <Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO res>_R
+                 ->_R Trans
+                          (<Yesod.Core.Types.HandlerData
+                              Main.HelloWorld (Yesod.Core.Types.MonadRoute GHC.Types.IO)>_R
+                           ->_R Sym (GHC.Types.NTCo:IO[0] <res>_R))
+                          (Sym (Yesod.Core.Types.NTCo:HandlerT[0]
+                                    <Main.HelloWorld>_N <GHC.Types.IO>_N <res>_N))) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$cyesodWithInternalState ::
+    Main.HelloWorld
+    -> GHC.Base.Maybe (Yesod.Routes.Class.Route Main.HelloWorld)
+    -> (Control.Monad.Trans.Resource.InternalState -> GHC.Types.IO a)
+    -> GHC.Types.IO a
+  {- Arity: 4, Strictness: <L,A><L,A><L,1*C1(C1(U))><L,U>,
+     Inline: INLINE (sat-args=2),
+     Unfolding: InlineRule (2, False, True)
+                (\ @ a130
+                   ds :: Main.HelloWorld
+                   ds1 :: GHC.Base.Maybe (Yesod.Routes.Class.Route Main.HelloWorld)
+                   eta2 :: Control.Monad.Trans.Resource.InternalState
+                           -> GHC.Types.IO a130
+                   eta3 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (Control.Exception.Base.bracket
+                    @ Control.Monad.Trans.Resource.InternalState
+                    @ ()
+                    @ a130
+                    Yesod.Core.Class.Yesod.$dmyesodWithInternalState_$screateInternalState
+                    Yesod.Core.Class.Yesod.$dmyesodWithInternalState_$scloseInternalState
+                    eta2)
+                   `cast`
+                 (GHC.Types.NTCo:IO[0] <a130>_R)
+                   eta3)
+                  `cast`
+                (forall a130.
+                 <Main.HelloWorld>_R
+                 ->_R <GHC.Base.Maybe (Yesod.Routes.Class.Route Main.HelloWorld)>_R
+                 ->_R <Control.Monad.Trans.Resource.InternalState
+                       -> GHC.Types.IO a130>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <a130>_R)) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$s$dmapproot ::
+    Yesod.Core.Types.Approot Main.HelloWorld
+  {- HasNoCafRefs,
+     Unfolding: InlineRule (-1, True, True)
+                (Yesod.Core.Types.ApprootRelative @ Main.HelloWorld) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$s$dmauthRoute ::
+    Main.HelloWorld
+    -> GHC.Base.Maybe (Yesod.Routes.Class.Route Main.HelloWorld)
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (-1, True, True)
+                (\ ds :: Main.HelloWorld ->
+                 GHC.Base.Nothing @ (Yesod.Routes.Class.Route Main.HelloWorld)) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$s$dmjsLoader ::
+    Main.HelloWorld
+    -> Yesod.Core.Types.ScriptLoadPosition Main.HelloWorld
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (-1, True, True)
+                (\ ds :: Main.HelloWorld ->
+                 Yesod.Core.Types.BottomOfBody @ Main.HelloWorld) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$s$dmmaximumContentLength ::
+    Main.HelloWorld
+    -> GHC.Base.Maybe (Yesod.Routes.Class.Route Main.HelloWorld)
+    -> GHC.Base.Maybe GHC.Word.Word64
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,A><L,A>m2,
+     Unfolding: InlineRule (-1, True, False)
+                (\ ds :: Main.HelloWorld
+                   ds1 :: GHC.Base.Maybe (Yesod.Routes.Class.Route Main.HelloWorld) ->
+                 GHC.Base.$
+                   @ GHC.Word.Word64
+                   @ (GHC.Base.Maybe GHC.Word.Word64)
+                   (GHC.Base.Just @ GHC.Word.Word64)
+                   (GHC.Word.$fNumWord64_$c*
+                      (GHC.Word.$fNumWord64_$c*
+                         (GHC.Word.$fBitsWord64_$cfromInteger __integer 2)
+                         (GHC.Word.$fBitsWord64_$cfromInteger __integer 1024))
+                      (GHC.Word.$fBitsWord64_$cfromInteger __integer 1024))) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$s$dmshouldLog ::
+    Main.HelloWorld
+    -> Control.Monad.Logger.LogSource
+    -> Control.Monad.Logger.LogLevel
+    -> GHC.Types.Bool
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,A><L,A><S,1*U>,
+     Unfolding: InlineRule (-1, True, True)
+                (\ ds :: Main.HelloWorld
+                   eta2 :: Control.Monad.Logger.LogSource
+                   eta3 :: Control.Monad.Logger.LogLevel ->
+                 Yesod.Core.Class.Yesod.defaultShouldLog eta2 eta3) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$s$dmurlRenderOverride ::
+    Main.HelloWorld
+    -> Yesod.Routes.Class.Route Main.HelloWorld
+    -> GHC.Base.Maybe Data.ByteString.Builder.Internal.Builder
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,A><L,A>,
+     Unfolding: InlineRule (-1, True, True)
+                (\ ds :: Main.HelloWorld
+                   ds1 :: Yesod.Routes.Class.Route Main.HelloWorld ->
+                 GHC.Base.Nothing @ Data.ByteString.Builder.Internal.Builder) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$s$fApplicativeHandlerT ::
+    GHC.Base.Applicative
+      (Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO)
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO)
+                  Main.$fYesodHelloWorld32
+                  Main.$fYesodHelloWorld_$s$fApplicativeHandlerT_$cpure
+                  (Yesod.Core.Types.$fApplicativeHandlerT_$c<*>
+                     @ Main.HelloWorld
+                     @ GHC.Types.IO
+                     Main.$fYesodHelloWorld32
+                     GHC.Base.$fMonadIO)
+                  (Yesod.Core.Types.$fApplicativeHandlerT_$c*>
+                     @ Main.HelloWorld
+                     @ GHC.Types.IO
+                     Main.$fYesodHelloWorld32
+                     GHC.Base.$fMonadIO)
+                  (Yesod.Core.Types.$fApplicativeHandlerT_$c<*
+                     @ Main.HelloWorld
+                     @ GHC.Types.IO
+                     Main.$fYesodHelloWorld32
+                     GHC.Base.$fMonadIO) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$s$fApplicativeHandlerT_$cpure ::
+    a -> Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO a
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,U><L,A><L,U>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ a51
+                   eta :: a51
+                   eta2 :: Yesod.Core.Types.HandlerData
+                             Main.HelloWorld (Yesod.Core.Types.MonadRoute GHC.Types.IO)
+                   eta3 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (GHC.Base.returnIO @ a51 eta) `cast` (GHC.Types.NTCo:IO[0] <a51>_R)
+                   eta3)
+                  `cast`
+                (forall a51.
+                 <a51>_R
+                 ->_R Trans
+                          (<Yesod.Core.Types.HandlerData
+                              Main.HelloWorld (Yesod.Core.Types.MonadRoute GHC.Types.IO)>_R
+                           ->_R Sym (GHC.Types.NTCo:IO[0] <a51>_R))
+                          (Sym (Yesod.Core.Types.NTCo:HandlerT[0]
+                                    <Main.HelloWorld>_N <GHC.Types.IO>_N <a51>_N))) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$s$fMonadBasebHandlerT ::
+    Control.Monad.Base.MonadBase
+      GHC.Types.IO
+      (Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ GHC.Types.IO
+                  @ (Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO)
+                  GHC.Base.$fApplicativeIO
+                  Main.$fYesodHelloWorld31
+                  GHC.Base.$fMonadIO
+                  Main.$fYesodHelloWorld29
+                  Main.$fYesodHelloWorld_$s$fMonadIOHandlerT_$cliftIO -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$s$fMonadHandlerHandlerT ::
+    Yesod.Core.Class.Handler.MonadHandler
+      (Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO)
+                  Main.$fYesodHelloWorld27
+                  (Yesod.Core.Class.Handler.$fMonadHandlerHandlerT_$cliftHandlerT
+                     @ Main.HelloWorld
+                     @ GHC.Types.IO
+                     Main.$fYesodHelloWorld27
+                     Main.$fYesodHelloWorld_tup) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$s$fMonadHandlerT ::
+    GHC.Base.Monad
+      (Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO)
+                  Main.$fYesodHelloWorld31
+                  (Yesod.Core.Types.$fMonadHandlerT_$c>>=
+                     @ Main.HelloWorld
+                     @ GHC.Types.IO
+                     Main.$fYesodHelloWorld31
+                     GHC.Base.$fMonadIO)
+                  (Yesod.Core.Types.$fMonadHandlerT_$c>>
+                     @ Main.HelloWorld
+                     @ GHC.Types.IO
+                     Main.$fYesodHelloWorld31
+                     GHC.Base.$fMonadIO)
+                  Main.$fYesodHelloWorld_$s$fApplicativeHandlerT_$cpure
+                  Main.$fYesodHelloWorld30 -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$s$fMonadIOHandlerT ::
+    Control.Monad.IO.Class.MonadIO
+      (Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO)
+                  Main.$fYesodHelloWorld29
+                  Main.$fYesodHelloWorld_$s$fMonadIOHandlerT_$cliftIO -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$s$fMonadIOHandlerT_$cliftIO ::
+    GHC.Types.IO a
+    -> Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO a
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,A>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ a51 eta :: GHC.Types.IO a51 ->
+                 let {
+                   eta2 :: GHC.Types.IO a51 = GHC.Base.id @ (GHC.Types.IO a51) eta
+                 } in
+                 (\ ds :: Yesod.Core.Types.HandlerData
+                            Main.HelloWorld (Yesod.Core.Types.MonadRoute GHC.Types.IO) ->
+                  eta2)
+                   `cast`
+                 (Sym (Yesod.Core.Types.NTCo:HandlerT[0]
+                           <Main.HelloWorld>_N <GHC.Types.IO>_N <a51>_N))) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$s$fMonadResourceHandlerT ::
+    Control.Monad.Trans.Resource.Internal.MonadResource
+      (Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO)
+                  Main.$fYesodHelloWorld34
+                  Main.$fYesodHelloWorld33
+                  Main.$fYesodHelloWorld31
+                  Main.$fYesodHelloWorld28
+                  (Yesod.Core.Types.$fMonadResourceHandlerT_$cliftResourceT
+                     @ Main.HelloWorld
+                     @ GHC.Types.IO
+                     Main.$fYesodHelloWorld34
+                     Main.$fYesodHelloWorld33
+                     Main.$fYesodHelloWorld31
+                     Main.$fYesodHelloWorld28
+                     Control.Monad.IO.Class.$fMonadIOIO
+                     Control.Monad.Base.$fMonadBaseIOIO
+                     Control.Monad.Catch.$fMonadThrowIO) -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$s$fMonadThrowHandlerT ::
+    Control.Monad.Catch.MonadThrow
+      (Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO)
+                  Main.$fYesodHelloWorld29
+                  Main.$fYesodHelloWorld_$s$fMonadThrowHandlerT_$cthrowM -}
+4c9b168ee34f919efbc272da449fee81
+  $fYesodHelloWorld_$s$fMonadThrowHandlerT_$cthrowM ::
+    GHC.Exception.Exception e =>
+    e -> Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO a
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <B,1*U(A,A,1*C1(U),A,A)><B,U><B,A><B,U>b,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ e
+                   @ a51
+                   eta :: GHC.Exception.Exception e
+                   x1 :: e
+                   eta2 :: Yesod.Core.Types.HandlerData
+                             Main.HelloWorld (Yesod.Core.Types.MonadRoute GHC.Types.IO)
+                   eta3 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (GHC.IO.throwIO @ e @ a51 eta x1)
+                   `cast`
+                 (GHC.Types.NTCo:IO[0] <a51>_R)
+                   eta3)
+                  `cast`
+                (forall e a51.
+                 <GHC.Exception.Exception e>_R
+                 ->_R <e>_R
+                 ->_R Trans
+                          (<Yesod.Core.Types.HandlerData
+                              Main.HelloWorld (Yesod.Core.Types.MonadRoute GHC.Types.IO)>_R
+                           ->_R Sym (GHC.Types.NTCo:IO[0] <a51>_R))
+                          (Sym (Yesod.Core.Types.NTCo:HandlerT[0]
+                                    <Main.HelloWorld>_N <GHC.Types.IO>_N <a51>_N))) -}
+4fe563b57278d1c3745478207c6211ad
+  $fYesodHelloWorld_tup ::
+    Control.Monad.Trans.Resource.MonadResourceBase GHC.Types.IO
+  {- Strictness: m,
+     Unfolding: ((Control.Monad.Trans.Control.$fMonadBaseControlIOIO,
+                  Control.Monad.Catch.$fMonadThrowIO,
+                  Control.Monad.Base.$fMonadBaseIOIO,
+                  Control.Monad.IO.Class.$fMonadIOIO,
+                  GHC.Base.$fApplicativeIO)) -}
+a631d462fe1620ce48c0e64a3ca98e52
+  $w$ccleanPath ::
+    [Data.Text.Internal.Text]
+    -> Data.Either.Either
+         [Data.Text.Internal.Text] [Data.Text.Internal.Text]
+  {- Arity: 1, Strictness: <S,U>, Inline: [0],
+     Unfolding: (\ w :: [Data.Text.Internal.Text] ->
+                 let {
+                   corrected :: [Data.Text.Internal.Text]
+                   = GHC.List.filter
+                       @ Data.Text.Internal.Text
+                       Main.$fYesodHelloWorld16
+                       w
+                 } in
+                 case GHC.Classes.$fEq[]_$c==
+                        @ Data.Text.Internal.Text
+                        Data.Text.$fEqText
+                        corrected
+                        w of wild {
+                   GHC.Types.False
+                   -> Data.Either.Left
+                        @ [Data.Text.Internal.Text]
+                        @ [Data.Text.Internal.Text]
+                        corrected
+                   GHC.Types.True
+                   -> Data.Either.Right
+                        @ [Data.Text.Internal.Text]
+                        @ [Data.Text.Internal.Text]
+                        (GHC.Base.map
+                           @ Data.Text.Internal.Text
+                           @ Data.Text.Internal.Text
+                           Main.$fYesodHelloWorld14
+                           w) }) -}
+d7a04e99c931b01f7784d5b20b0411df
+  $w$cfileUpload ::
+    Network.Wai.Internal.RequestBodyLength
+    -> Yesod.Core.Types.FileUpload
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ w :: Network.Wai.Internal.RequestBodyLength ->
+                 case w of wild {
+                   Network.Wai.Internal.ChunkedBody -> Main.$fYesodHelloWorld5
+                   Network.Wai.Internal.KnownLength size
+                   -> case size of wild1 { GHC.Word.W64# a51 ->
+                      case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.leWord# a51 __word 50000) of wild2 {
+                        GHC.Types.False -> Main.$fYesodHelloWorld5
+                        GHC.Types.True -> Main.$fYesodHelloWorld3 } } }) -}
+7baad007bcbd045e7d47ed683edeb52c
+  $w$cjoinPath ::
+    Data.Text.Internal.Text
+    -> [Data.Text.Internal.Text]
+    -> [(Data.Text.Internal.Text, Data.Text.Internal.Text)]
+    -> Data.ByteString.Builder.Internal.Builder
+  {- Arity: 3, Strictness: <L,1*U(U,U,U)><L,1*U><L,1*U>, Inline: [0],
+     Unfolding: (\ w :: Data.Text.Internal.Text
+                   w1 :: [Data.Text.Internal.Text]
+                   w2 :: [(Data.Text.Internal.Text, Data.Text.Internal.Text)] ->
+                 let {
+                   a51 :: [GHC.Types.Char]
+                   = case w of wild { Data.Text.Internal.Text dt dt1 dt2 ->
+                     let {
+                       a52 :: GHC.Prim.Int# = GHC.Prim.+# dt1 dt2
+                     } in
+                     letrec {
+                       $wunfold :: GHC.Prim.Int# -> [GHC.Types.Char]
+                         {- Arity: 1, Strictness: <L,U>, Inline: [0] -}
+                       = \ ww :: GHC.Prim.Int# ->
+                         case GHC.Prim.tagToEnum#
+                                @ GHC.Types.Bool
+                                (GHC.Prim.>=# ww a52) of wild1 {
+                           GHC.Types.False
+                           -> case GHC.Prim.indexWord16Array# dt ww of r# { DEFAULT ->
+                              case GHC.Prim.tagToEnum#
+                                     @ GHC.Types.Bool
+                                     (GHC.Prim.geWord# r# __word 55296) of wild2 {
+                                GHC.Types.False
+                                -> GHC.Types.:
+                                     @ GHC.Types.Char
+                                     (GHC.Types.C# (GHC.Prim.chr# (GHC.Prim.word2Int# r#)))
+                                     ($wunfold (GHC.Prim.+# ww 1))
+                                GHC.Types.True
+                                -> case GHC.Prim.tagToEnum#
+                                          @ GHC.Types.Bool
+                                          (GHC.Prim.leWord# r# __word 56319) of wild3 {
+                                     GHC.Types.False
+                                     -> GHC.Types.:
+                                          @ GHC.Types.Char
+                                          (GHC.Types.C# (GHC.Prim.chr# (GHC.Prim.word2Int# r#)))
+                                          ($wunfold (GHC.Prim.+# ww 1))
+                                     GHC.Types.True
+                                     -> case GHC.Prim.indexWord16Array#
+                                               dt
+                                               (GHC.Prim.+# ww 1) of r#1 { DEFAULT ->
+                                        GHC.Types.:
+                                          @ GHC.Types.Char
+                                          (GHC.Types.C#
+                                             (GHC.Prim.chr#
+                                                (GHC.Prim.+#
+                                                   (GHC.Prim.+#
+                                                      (GHC.Prim.uncheckedIShiftL#
+                                                         (GHC.Prim.-# (GHC.Prim.word2Int# r#) 55296)
+                                                         10)
+                                                      (GHC.Prim.-# (GHC.Prim.word2Int# r#1) 56320))
+                                                   65536)))
+                                          ($wunfold (GHC.Prim.+# ww 2)) } } } }
+                           GHC.Types.True -> GHC.Types.[] @ GHC.Types.Char }
+                     } in
+                     $wunfold dt1 }
+                 } in
+                 let {
+                   ds1 :: Data.ByteString.Builder.Internal.Builder
+                   = case GHC.Base.map
+                            @ (Data.Text.Internal.Text, Data.Text.Internal.Text)
+                            @ (Data.ByteString.Internal.ByteString,
+                               GHC.Base.Maybe Data.ByteString.Internal.ByteString)
+                            Main.$fYesodHelloWorld13
+                            w2 of wild {
+                       []
+                       -> case w1 of wild1 {
+                            []
+                            -> Network.HTTP.Types.URI.encodePathSegments
+                                 Main.$fYesodHelloWorld12
+                            : ds2 ds3
+                            -> Network.HTTP.Types.URI.encodePathSegments
+                                 (GHC.Base.map
+                                    @ Data.Text.Internal.Text
+                                    @ Data.Text.Internal.Text
+                                    Main.$fYesodHelloWorld11
+                                    wild1) }
+                       : ipv ipv1
+                       -> let {
+                            ds2 :: Data.ByteString.Builder.Internal.Builder
+                            = case w1 of wild1 {
+                                []
+                                -> Network.HTTP.Types.URI.encodePathSegments
+                                     Main.$fYesodHelloWorld12
+                                : ds3 ds4
+                                -> Network.HTTP.Types.URI.encodePathSegments
+                                     (GHC.Base.map
+                                        @ Data.Text.Internal.Text
+                                        @ Data.Text.Internal.Text
+                                        Main.$fYesodHelloWorld11
+                                        wild1) }
+                          } in
+                          let {
+                            ds3 :: Data.ByteString.Builder.Internal.Builder
+                            = case ipv of ww { (,) ww1 ww2 ->
+                              Network.HTTP.Types.URI.$wgo
+                                Network.HTTP.Types.URI.encodePath1
+                                  `cast`
+                                (Sym (Data.ByteString.Builder.Internal.NTCo:Builder[0]))
+                                ww1
+                                ww2 }
+                          } in
+                          let {
+                            ds4 :: Data.ByteString.Builder.Internal.Builder
+                            = Network.HTTP.Types.URI.encodePath_go ipv1
+                          } in
+                          (\ @ r eta :: Data.ByteString.Builder.Internal.BuildStep r ->
+                           ds2 `cast` (Data.ByteString.Builder.Internal.NTCo:Builder[0])
+                             @ r
+                             (ds3 `cast` (Data.ByteString.Builder.Internal.NTCo:Builder[0])
+                                @ r
+                                (ds4 `cast` (Data.ByteString.Builder.Internal.NTCo:Builder[0])
+                                   @ r
+                                   eta)))
+                            `cast`
+                          (Sym (Data.ByteString.Builder.Internal.NTCo:Builder[0])) }
+                 } in
+                 (\ @ r eta :: Data.ByteString.Builder.Internal.BuildStep r ->
+                  let {
+                    w3 :: Data.ByteString.Builder.Internal.BufferRange
+                          -> GHC.Types.IO (Data.ByteString.Builder.Internal.BuildSignal r)
+                    = ds1 `cast` (Data.ByteString.Builder.Internal.NTCo:Builder[0])
+                        @ r
+                        eta
+                  } in
+                  \ w4 :: Data.ByteString.Builder.Internal.BufferRange
+                    w5 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                  case w4 of ww { Data.ByteString.Builder.Internal.BufferRange ww1 ww2 ->
+                  Main.$wa4 @ r a51 w3 ww1 ww2 w5 })
+                   `cast`
+                 (Trans
+                      (forall r.
+                       <Data.ByteString.Builder.Internal.BuildStep r>_R
+                       ->_R <Data.ByteString.Builder.Internal.BufferRange>_R
+                       ->_R Sym (GHC.Types.NTCo:IO[0]
+                                     <Data.ByteString.Builder.Internal.BuildSignal r>_R))
+                      (Sym (Data.ByteString.Builder.Internal.NTCo:Builder[0])))) -}
+4c9b168ee34f919efbc272da449fee81
+  $w$cyesodDispatch ::
+    Yesod.Core.Types.YesodRunnerEnv Main.HelloWorld
+    -> Network.HTTP.Types.Method.Method
+    -> Network.HTTP.Types.Version.HttpVersion
+    -> Data.ByteString.Internal.ByteString
+    -> Data.ByteString.Internal.ByteString
+    -> Network.HTTP.Types.Header.RequestHeaders
+    -> GHC.Types.Bool
+    -> Network.Socket.Types.SockAddr
+    -> [Data.Text.Internal.Text]
+    -> Network.HTTP.Types.URI.Query
+    -> GHC.Types.IO Data.ByteString.Internal.ByteString
+    -> Data.Vault.Lazy.Vault
+    -> Network.Wai.Internal.RequestBodyLength
+    -> GHC.Base.Maybe Data.ByteString.Internal.ByteString
+    -> GHC.Base.Maybe Data.ByteString.Internal.ByteString
+    -> GHC.Base.Maybe Data.ByteString.Internal.ByteString
+    -> GHC.Base.Maybe Data.ByteString.Internal.ByteString
+    -> (Network.Wai.Internal.Response
+        -> GHC.Types.IO Network.Wai.Internal.ResponseReceived)
+    -> GHC.Types.IO Network.Wai.Internal.ResponseReceived
+  {- Arity: 17,
+     Strictness: <L,U(U,U,U,U,C(U(U,1*U(U,U,U))))><L,U(U,U,U,U)><L,U><L,U><L,U><L,U><L,U><L,U><S,U><L,U><L,U><L,U><L,U><L,U><L,U><L,U><L,U>,
+     Inline: [0] -}
+4f4e998d18e600565ea6d8c8521ce679
+  $w$sgo5 ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.Set.Base.Set Data.Text.Internal.Text
+    -> Data.Set.Base.Set Data.Text.Internal.Text
+  {- Arity: 4, Strictness: <L,U><L,U><L,U><S,1*U>, Inline: [0] -}
+4c9b168ee34f919efbc272da449fee81
+  $wa ::
+    (Yesod.Routes.Class.Route Main.HelloWorld
+     -> Text.ParserCombinators.ReadP.P b1)
+    -> (# GHC.Base.String -> Text.ParserCombinators.ReadP.P b1 #)
+  {- Arity: 1, Strictness: <L,1*C1(U)>, Inline: [0],
+     Unfolding: (\ @ b1
+                   w :: Yesod.Routes.Class.Route Main.HelloWorld
+                        -> Text.ParserCombinators.ReadP.P b1 ->
+                 let {
+                   lvl78 :: Text.ParserCombinators.ReadP.P b1
+                   = let {
+                       lvl79 :: Text.ParserCombinators.ReadP.P b1
+                       = w Main.HomeR `cast` (Sub (Sym (Main.TFCo:R:RouteHelloWorld[0])))
+                     } in
+                     Text.Read.Lex.expect2
+                       @ b1
+                       (\ a98 :: Text.Read.Lex.Lexeme ->
+                        case a98 of wild {
+                          DEFAULT -> Text.ParserCombinators.ReadP.Fail @ b1
+                          Text.Read.Lex.Ident a51
+                          -> case GHC.Base.eqString a51 Main.$fReadRoute4 of wild1 {
+                               GHC.Types.False -> Text.ParserCombinators.ReadP.Fail @ b1
+                               GHC.Types.True -> lvl79 } })
+                 } in
+                 let {
+                   k :: () -> Text.ParserCombinators.ReadP.P b1
+                     {- Arity: 1, Strictness: <L,A>, Inline: INLINE[0],
+                        Unfolding: InlineRule (1, True, True) (\ w2 :: () -> lvl78) -}
+                   = \ w2 :: () -> lvl78
+                 } in
+                 (# \ a98 :: GHC.Base.String ->
+                    (Text.ParserCombinators.ReadP.skipSpaces_skip a98)
+                      `cast`
+                    (Text.ParserCombinators.ReadP.NTCo:ReadP[0] <()>_R)
+                      @ b1
+                      k #)) -}
+4c9b168ee34f919efbc272da449fee81
+  $wa1 ::
+    Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO res
+    -> Yesod.Core.Types.YesodRequest
+    -> Yesod.Core.Types.RunHandlerEnv Main.HelloWorld
+    -> GHC.Prim.MutVar# GHC.Prim.RealWorld Yesod.Core.Types.GHState
+    -> (Yesod.Routes.Class.Route Main.HelloWorld
+        -> Yesod.Core.Types.MonadRoute GHC.Types.IO)
+    -> GHC.Prim.MutVar#
+         GHC.Prim.RealWorld Control.Monad.Trans.Resource.Internal.ReleaseMap
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, res #)
+  {- Arity: 7,
+     Strictness: <L,1*C1(C1(U(U,U)))><S,U><S,U><L,U><S,U><L,U><L,U>,
+     Inline: [0] -}
+7cee57baf0a76dc2407c61a29416db6a
+  $wa2 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          GHC.Base.Maybe Yesod.Core.Types.SessionBackend #)
+  {- Arity: 1, Strictness: <L,U>, Inline: [0],
+     Unfolding: (\ w :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case Web.ClientSession.getDefaultKey2
+                        Web.ClientSession.defaultKeyFile
+                        w of ds1 { (#,#) ipv ipv1 ->
+                 case Yesod.Core.Internal.Session.clientSessionDateCacher1
+                        Main.$fYesodHelloWorld7
+                          `cast`
+                        (Trans
+                             (Sym (Data.Fixed.NTCo:Fixed[0] <Data.Fixed.E12>_P))
+                             (Sym (Data.Time.Clock.UTC.NTCo:NominalDiffTime[0])))
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 case ipv3 of wild { (,) getCachedDate _closeDateCacher ->
+                 (# ipv2,
+                    GHC.Base.Just
+                      @ Yesod.Core.Types.SessionBackend
+                      (Yesod.Core.Class.Yesod.defaultClientSessionBackend3
+                         ipv1
+                         getCachedDate
+                         Yesod.Core.Class.Yesod.defaultClientSessionBackend2)
+                        `cast`
+                      (Trans
+                           (<Network.Wai.Internal.Request>_R
+                            ->_R Sym (GHC.Types.NTCo:IO[0]
+                                          <(Data.Map.Base.Map
+                                              Data.Text.Internal.Text
+                                              Data.ByteString.Internal.ByteString,
+                                            Yesod.Core.Types.SessionMap
+                                            -> GHC.Types.IO [Yesod.Core.Types.Header])>_R))
+                           (Sym (Yesod.Core.Types.NTCo:SessionBackend[0]))) #) } } }) -}
+7b1f1b6fe33cc96720b7e01be91484cb
+  $wa3 ::
+    Yesod.Core.Types.Logger
+    -> Language.Haskell.TH.Syntax.Loc
+    -> Control.Monad.Logger.LogSource
+    -> Control.Monad.Logger.LogLevel
+    -> System.Log.FastLogger.LogStr.LogStr
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 6,
+     Strictness: <L,U(U(A,1*U(U),1*U(U(U),U(U),A,U),1*C1(U(U,U))),U)><L,1*U(U,U,U,U(1*U(U),1*U(U)),A)><L,1*U(U,U,U)><S,U><L,1*U(U,C(U))><L,U>,
+     Inline: [0],
+     Unfolding: (\ w :: Yesod.Core.Types.Logger
+                   w1 :: Language.Haskell.TH.Syntax.Loc
+                   w2 :: Control.Monad.Logger.LogSource
+                   w3 :: Control.Monad.Logger.LogLevel
+                   w4 :: System.Log.FastLogger.LogStr.LogStr
+                   w5 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 let {
+                   $j :: GHC.Prim.Void#
+                         -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+                     {- Arity: 1, Strictness: <L,A> -}
+                   = \ w6 :: GHC.Prim.Void#[OneShot] ->
+                     case Yesod.Core.Class.Yesod.defaultMessageLoggerSource2
+                            (Yesod.Core.Types.loggerDate w)
+                            w1
+                            w2
+                            w3
+                            w4
+                            w5 of ds2 { (#,#) ipv2 ipv3 ->
+                     Yesod.Core.Types.loggerPutStr1 w ipv3 ipv2 }
+                 } in
+                 case w3 of wild {
+                   Control.Monad.Logger.LevelDebug -> (# w5, GHC.Tuple.() #)
+                   Control.Monad.Logger.LevelInfo -> $j GHC.Prim.void#
+                   Control.Monad.Logger.LevelWarn -> $j GHC.Prim.void#
+                   Control.Monad.Logger.LevelError -> $j GHC.Prim.void#
+                   Control.Monad.Logger.LevelOther a130 -> $j GHC.Prim.void# }) -}
+d1127be18095bf62af2377566eeecc53
+  $wa4 ::
+    [GHC.Types.Char]
+    -> (Data.ByteString.Builder.Internal.BufferRange
+        -> GHC.Types.IO (Data.ByteString.Builder.Internal.BuildSignal r))
+    -> GHC.Prim.Addr#
+    -> GHC.Prim.Addr#
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.ByteString.Builder.Internal.BuildSignal r #)
+  {- Arity: 5, HasNoCafRefs,
+     Strictness: <S,1*U><L,C(C1(U(U,U)))><L,U><L,U><L,U>, Inline: [0] -}
+e72c7aec5fddf58d8e3183523bb633f8
+  $wgo5 ::
+    GHC.Prim.Int#
+    -> Data.Set.Base.Set Data.Text.Internal.Text
+    -> [Data.Text.Internal.Text]
+    -> Data.Set.Base.Set Data.Text.Internal.Text
+  {- Arity: 3, Strictness: <L,U><S,1*U><S,1*U>, Inline: [0] -}
+970fa2b7c343f3703a293ddf1465dce7
+  type Handler =
+    Yesod.Core.Types.HandlerT Main.HelloWorld GHC.Types.IO
+4c9b168ee34f919efbc272da449fee81
+  data HelloWorld = HelloWorld
+    Promotable
+4c9b168ee34f919efbc272da449fee81
+  data instance Yesod.Routes.Class.Route Main.HelloWorld = HomeR
+    RecFlag: Recursive
+4c9b168ee34f919efbc272da449fee81
+  axiom TFCo:R:RouteHelloWorld::
+      Yesod.Routes.Class.Route Main.HelloWorld = Main.R:RouteHelloWorld
+14801a54ee492e133f978b78c5a0d7e3
+  type Widget =
+    Yesod.Core.Types.WidgetT Main.HelloWorld GHC.Types.IO ()
+4d7246bd6061baadffb87d29996074db
+  main :: GHC.Types.IO ()
+  {- Arity: 1,
+     Unfolding: InlineRule (0, True, True)
+                Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+2a441be75a3d984b60d690d6067857e9
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (Yesod.Core.Dispatch.warp1
+                   @ Main.HelloWorld
+                   Main.$fYesodDispatchHelloWorld
+                   Main.main2
+                   Main.HelloWorld) -}
+c570853c265a1948cbf6d47b1d90bd6a
+  main2 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 3000) -}
+82644242e4170c0cb407d34e28de2533
+  main3 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
+instance GHC.Classes.Eq [Yesod.Routes.Class.Route] = Main.$fEqRoute
+instance Yesod.Routes.Class.ParseRoute [Main.HelloWorld]
+  = Main.$fParseRouteHelloWorld
+instance GHC.Read.Read [Yesod.Routes.Class.Route]
+  = Main.$fReadRoute
+instance Yesod.Routes.Class.RenderRoute [Main.HelloWorld]
+  = Main.$fRenderRouteHelloWorld
+instance Yesod.Routes.Class.RouteAttrs [Main.HelloWorld]
+  = Main.$fRouteAttrsHelloWorld
+instance GHC.Show.Show [Yesod.Routes.Class.Route]
+  = Main.$fShowRoute
+instance Yesod.Core.Class.Dispatch.YesodDispatch [Main.HelloWorld]
+  = Main.$fYesodDispatchHelloWorld
+instance Yesod.Core.Class.Yesod.Yesod [Main.HelloWorld]
+  = Main.$fYesodHelloWorld
+family instance Yesod.Routes.Class.Route [Main.HelloWorld]
+  = Main.TFCo:R:RouteHelloWorld
+"SPEC/Main $dmapproot @ HelloWorld" [ALWAYS] forall $dYesod :: Yesod.Core.Class.Yesod.Yesod
+                                                                 Main.HelloWorld
+  Yesod.Core.Class.Yesod.$dmapproot @ Main.HelloWorld $dYesod
+  = Main.$fYesodHelloWorld_$s$dmapproot
+"SPEC/Main $dmauthRoute @ HelloWorld" [ALWAYS] forall $dYesod :: Yesod.Core.Class.Yesod.Yesod
+                                                                   Main.HelloWorld
+  Yesod.Core.Class.Yesod.$dmauthRoute @ Main.HelloWorld $dYesod
+  = Main.$fYesodHelloWorld_$s$dmauthRoute
+"SPEC/Main $dmjsLoader @ HelloWorld" [ALWAYS] forall $dYesod :: Yesod.Core.Class.Yesod.Yesod
+                                                                  Main.HelloWorld
+  Yesod.Core.Class.Yesod.$dmjsLoader @ Main.HelloWorld $dYesod
+  = Main.$fYesodHelloWorld_$s$dmjsLoader
+"SPEC/Main $dmmaximumContentLength @ HelloWorld" [ALWAYS] forall $dYesod :: Yesod.Core.Class.Yesod.Yesod
+                                                                              Main.HelloWorld
+  Yesod.Core.Class.Yesod.$dmmaximumContentLength @ Main.HelloWorld
+                                                 $dYesod
+  = Main.$fYesodHelloWorld_$s$dmmaximumContentLength
+"SPEC/Main $dmreadsPrec @ (Route HelloWorld)" [ALWAYS] forall $dRead :: GHC.Read.Read
+                                                                          (Yesod.Routes.Class.Route
+                                                                             Main.HelloWorld)
+  GHC.Read.$dmreadsPrec @ (Yesod.Routes.Class.Route Main.HelloWorld)
+                        $dRead
+  = Main.$fReadRoute_$s$dmreadsPrec
+"SPEC/Main $dmshouldLog @ HelloWorld" [ALWAYS] forall $dYesod :: Yesod.Core.Class.Yesod.Yesod
+                                                                   Main.HelloWorld
+  Yesod.Core.Class.Yesod.$dmshouldLog @ Main.HelloWorld $dYesod
+  = Main.$fYesodHelloWorld_$s$dmshouldLog
+"SPEC/Main $dmurlRenderOverride @ HelloWorld" [ALWAYS] forall $dYesod :: Yesod.Core.Class.Yesod.Yesod
+                                                                           Main.HelloWorld
+  Yesod.Core.Class.Yesod.$dmurlRenderOverride @ Main.HelloWorld
+                                              $dYesod
+  = Main.$fYesodHelloWorld_$s$dmurlRenderOverride
+"SPEC/Main $fApplicativeHandlerT @ HelloWorld @ IO" [ALWAYS] forall $dFunctor :: GHC.Base.Functor
+                                                                                   (Yesod.Core.Types.HandlerT
+                                                                                      Main.HelloWorld
+                                                                                      GHC.Types.IO)
+                                                                    $dMonad :: GHC.Base.Monad
+                                                                                 GHC.Types.IO
+  Yesod.Core.Types.$fApplicativeHandlerT @ Main.HelloWorld
+                                         @ GHC.Types.IO
+                                         $dFunctor
+                                         $dMonad
+  = Main.$fYesodHelloWorld_$s$fApplicativeHandlerT
+"SPEC/Main $fApplicativeHandlerT_$cpure @ HelloWorld @ IO" [ALWAYS] forall $dFunctor :: GHC.Base.Functor
+                                                                                          (Yesod.Core.Types.HandlerT
+                                                                                             Main.HelloWorld
+                                                                                             GHC.Types.IO)
+                                                                           $dMonad :: GHC.Base.Monad
+                                                                                        GHC.Types.IO
+  Yesod.Core.Types.$fApplicativeHandlerT_$cpure @ Main.HelloWorld
+                                                @ GHC.Types.IO
+                                                $dFunctor
+                                                $dMonad
+  = Main.$fYesodHelloWorld_$s$fApplicativeHandlerT_$cpure
+"SPEC/Main $fMonadBasebHandlerT @ IO @ HelloWorld @ IO" [ALWAYS] forall $dApplicative :: GHC.Base.Applicative
+                                                                                           GHC.Types.IO
+                                                                        $dApplicative1 :: GHC.Base.Applicative
+                                                                                            (Yesod.Core.Types.HandlerT
+                                                                                               Main.HelloWorld
+                                                                                               GHC.Types.IO)
+                                                                        $dMonad :: GHC.Base.Monad
+                                                                                     GHC.Types.IO
+                                                                        $dMonad1 :: GHC.Base.Monad
+                                                                                      (Yesod.Core.Types.HandlerT
+                                                                                         Main.HelloWorld
+                                                                                         GHC.Types.IO)
+                                                                        $dMonadBase :: Control.Monad.Base.MonadBase
+                                                                                         GHC.Types.IO
+                                                                                         GHC.Types.IO
+  Yesod.Core.Types.$fMonadBasebHandlerT @ GHC.Types.IO
+                                        @ Main.HelloWorld
+                                        @ GHC.Types.IO
+                                        $dApplicative
+                                        $dApplicative1
+                                        $dMonad
+                                        $dMonad1
+                                        $dMonadBase
+  = Main.$fYesodHelloWorld_$s$fMonadBasebHandlerT
+"SPEC/Main $fMonadHandlerHandlerT @ HelloWorld @ IO" [ALWAYS] forall $dMonadResource :: Control.Monad.Trans.Resource.Internal.MonadResource
+                                                                                          (Yesod.Core.Types.HandlerT
+                                                                                             Main.HelloWorld
+                                                                                             GHC.Types.IO)
+                                                                     tup :: Control.Monad.Trans.Resource.MonadResourceBase
+                                                                              GHC.Types.IO
+  Yesod.Core.Class.Handler.$fMonadHandlerHandlerT @ Main.HelloWorld
+                                                  @ GHC.Types.IO
+                                                  $dMonadResource
+                                                  tup
+  = Main.$fYesodHelloWorld_$s$fMonadHandlerHandlerT
+"SPEC/Main $fMonadHandlerT @ HelloWorld @ IO" [ALWAYS] forall $dApplicative :: GHC.Base.Applicative
+                                                                                 (Yesod.Core.Types.HandlerT
+                                                                                    Main.HelloWorld
+                                                                                    GHC.Types.IO)
+                                                              $dMonad :: GHC.Base.Monad GHC.Types.IO
+  Yesod.Core.Types.$fMonadHandlerT @ Main.HelloWorld
+                                   @ GHC.Types.IO
+                                   $dApplicative
+                                   $dMonad
+  = Main.$fYesodHelloWorld_$s$fMonadHandlerT
+"SPEC/Main $fMonadIOHandlerT @ HelloWorld @ IO" [ALWAYS] forall $dMonad :: GHC.Base.Monad
+                                                                             (Yesod.Core.Types.HandlerT
+                                                                                Main.HelloWorld
+                                                                                GHC.Types.IO)
+                                                                $dMonadIO :: Control.Monad.IO.Class.MonadIO
+                                                                               GHC.Types.IO
+  Yesod.Core.Types.$fMonadIOHandlerT @ Main.HelloWorld
+                                     @ GHC.Types.IO
+                                     $dMonad
+                                     $dMonadIO
+  = Main.$fYesodHelloWorld_$s$fMonadIOHandlerT
+"SPEC/Main $fMonadIOHandlerT_$cliftIO @ HelloWorld @ IO" [ALWAYS] forall $dMonad :: GHC.Base.Monad
+                                                                                      (Yesod.Core.Types.HandlerT
+                                                                                         Main.HelloWorld
+                                                                                         GHC.Types.IO)
+                                                                         $dMonadIO :: Control.Monad.IO.Class.MonadIO
+                                                                                        GHC.Types.IO
+  Yesod.Core.Types.$fMonadIOHandlerT_$cliftIO @ Main.HelloWorld
+                                              @ GHC.Types.IO
+                                              $dMonad
+                                              $dMonadIO
+  = Main.$fYesodHelloWorld_$s$fMonadIOHandlerT_$cliftIO
+"SPEC/Main $fMonadResourceHandlerT @ HelloWorld @ IO" [ALWAYS] forall $dMonadThrow :: Control.Monad.Catch.MonadThrow
+                                                                                        (Yesod.Core.Types.HandlerT
+                                                                                           Main.HelloWorld
+                                                                                           GHC.Types.IO)
+                                                                      $dMonadIO :: Control.Monad.IO.Class.MonadIO
+                                                                                     (Yesod.Core.Types.HandlerT
+                                                                                        Main.HelloWorld
+                                                                                        GHC.Types.IO)
+                                                                      $dApplicative :: GHC.Base.Applicative
+                                                                                         (Yesod.Core.Types.HandlerT
+                                                                                            Main.HelloWorld
+                                                                                            GHC.Types.IO)
+                                                                      $dMonadBase :: Control.Monad.Base.MonadBase
+                                                                                       GHC.Types.IO
+                                                                                       (Yesod.Core.Types.HandlerT
+                                                                                          Main.HelloWorld
+                                                                                          GHC.Types.IO)
+                                                                      $dMonadIO1 :: Control.Monad.IO.Class.MonadIO
+                                                                                      GHC.Types.IO
+                                                                      $dMonadBase1 :: Control.Monad.Base.MonadBase
+                                                                                        GHC.Types.IO
+                                                                                        GHC.Types.IO
+                                                                      $dMonadThrow1 :: Control.Monad.Catch.MonadThrow
+                                                                                         GHC.Types.IO
+  Yesod.Core.Types.$fMonadResourceHandlerT @ Main.HelloWorld
+                                           @ GHC.Types.IO
+                                           $dMonadThrow
+                                           $dMonadIO
+                                           $dApplicative
+                                           $dMonadBase
+                                           $dMonadIO1
+                                           $dMonadBase1
+                                           $dMonadThrow1
+  = Main.$fYesodHelloWorld_$s$fMonadResourceHandlerT
+"SPEC/Main $fMonadThrowHandlerT @ HelloWorld @ IO" [ALWAYS] forall $dMonad :: GHC.Base.Monad
+                                                                                (Yesod.Core.Types.HandlerT
+                                                                                   Main.HelloWorld
+                                                                                   GHC.Types.IO)
+                                                                   $dMonadThrow :: Control.Monad.Catch.MonadThrow
+                                                                                     GHC.Types.IO
+  Yesod.Core.Types.$fMonadThrowHandlerT @ Main.HelloWorld
+                                        @ GHC.Types.IO
+                                        $dMonad
+                                        $dMonadThrow
+  = Main.$fYesodHelloWorld_$s$fMonadThrowHandlerT
+"SPEC/Main $fMonadThrowHandlerT_$cthrowM @ HelloWorld @ IO" [ALWAYS] forall $dMonad :: GHC.Base.Monad
+                                                                                         (Yesod.Core.Types.HandlerT
+                                                                                            Main.HelloWorld
+                                                                                            GHC.Types.IO)
+                                                                            $dMonadThrow :: Control.Monad.Catch.MonadThrow
+                                                                                              GHC.Types.IO
+  Yesod.Core.Types.$fMonadThrowHandlerT_$cthrowM @ Main.HelloWorld
+                                                 @ GHC.Types.IO
+                                                 $dMonad
+                                                 $dMonadThrow
+  = Main.$fYesodHelloWorld_$s$fMonadThrowHandlerT_$cthrowM
+"SPEC/Main fromList @ Text" [ALWAYS] forall $dOrd :: GHC.Classes.Ord
+                                                       Data.Text.Internal.Text
+  Data.Set.Base.fromList @ Data.Text.Internal.Text $dOrd
+  = Main.$fRouteAttrsHelloWorld_$sfromList
+"SPEC/Main readListDefault @ (Route HelloWorld)" [ALWAYS] forall $dRead :: GHC.Read.Read
+                                                                             (Yesod.Routes.Class.Route
+                                                                                Main.HelloWorld)
+  GHC.Read.readListDefault @ (Yesod.Routes.Class.Route
+                                Main.HelloWorld)
+                           $dRead
+  = Main.$fReadRoute_$sreadListDefault
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

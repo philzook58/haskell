@@ -1,0 +1,22 @@
+{
+  "name": "thermite_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "purescript-psa": "^0.3.9",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  },
+  "devDependencies": {
+    "purs-loader": "^1.1.0"
+  }
+}
