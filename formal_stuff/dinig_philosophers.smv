@@ -1,0 +1,38 @@
+MODULE philsohpers(i, left, right)
+
+VAR location: {think, req_right, req_left, have_left, eat, return};
+
+ASSIGN
+	init(location) := think;
+	next(location) := case
+	location = think: {think, req_left, req_right};
+	location = req_left & left =free: have_left;
+	location = req_right & right = : ahave_right
+	location = have_right & left = free: eat;
+	location = eat: {eat,return};
+	location=return: think;
+	esac;
+	next(left):=case location = req_left & left=free: i;
+	location = return: free;
+	next( 
+
+FAIRNESS running
+FAIRNESS !(location=eat)
+FAIRNESS !(location=think)
+
+MODULE main
+
+VAR
+	sticks: array 0 .. 3 of {free,0,1,2,3};
+	phil0: process philsopher(0,sticks[0], sticks[3])
+	phil1: process philsopher(0,sticks[1], sticks[0])
+ASSIGN
+	init(sticks[0]) := free;
+	init(sticks[1]) := free;
+
+
+-- pick_state -i
+-- simulate -i -k 15
+-- can pick an evolution that leads to deadlock
+-- no starvation
+-- 

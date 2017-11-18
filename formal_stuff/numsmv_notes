@@ -1,0 +1,10 @@
+Nusmv -int
+go
+
+print_reachable_states
+pick_state -i
+simulate -i -k 5
+
+check_ltlspec -p "!(F (t1.state = g & tl2.state = g))
+
+

@@ -1,0 +1,4 @@
+
+data DoubleList a = Dlist [a] a [a] deriving Functor
+
+

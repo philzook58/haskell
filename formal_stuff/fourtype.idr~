@@ -1,0 +1,7 @@
+
+
+data FourType : Type where
+  IsFour : n:Nat -> n=4 -> FourType
+  
+  
+  
