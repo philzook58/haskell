@@ -1,0 +1,19 @@
+{
+  "name": "purescript-vector-try",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^3.1.1",
+    "purescript-console": "^3.0.0",
+    "purescript-functor-vector": "^0.1.0",
+    "purescript-propel": "^0.1.0",
+    "purescript-echarts": "^10.1.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^3.0.0"
+  }
+}
